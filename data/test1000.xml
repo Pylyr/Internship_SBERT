@@ -1,0 +1,1824 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<triples>
+	<triple e1="information_overload" e2="recommender_system" count="73">
+		<rels>
+			<r order="true">supportsOtherEntity</r>
+			<r order="true">methodUsedBy</r>
+			<r order="true">usesMethod</r>
+			<r order="true">OtherEntitySupportedBy</r>
+		</rels>
+		<text id="arXiv:1408.6930">
+			<title>Mobile recommender systems: An overview of technologies and challenges</title>
+			<hlight>has generated an &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt; problem. &lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; is
+a necessity to...who are crucial to &lt;b class="match term0"&gt;information&lt;/b&gt;
+retrieval...related to mobile &lt;b class="match term4"&gt;recommender&lt;/b&gt;
+&lt;b class="match term3"&gt;systems&lt;/b&gt; and a more detailed</hlight>
+			<abs>  The use of mobile devices in combination with the rapid growth of the
+internet has generated an information overload problem. Recommender systems is
+a necessity to decide which of the data are relevant to the user. However in
+mobile devices there are different factors who are crucial to information
+retrieval, such as the location, the screen size and the processor speed. This
+paper gives an overview of the technologies related to mobile recommender
+systems and a more detailed description of the challenged faced.
+</abs>
+		</text>
+		<text id="arXiv:2202.06248">
+			<title>A Tech Hybrid-Recommendation Engine and Personalized Notification: An
+  integrated tool to assist users through Recommendations (Project ATHENA)</title>
+			<hlight>to address &lt;b class="match term0"&gt;information&lt;/b&gt;
+&lt;b class="match term1"&gt;overload&lt;/b&gt;, primarily focused...on &lt;b class="match term0"&gt;Recommendation&lt;/b&gt; &lt;b class="match term1"&gt;Systems&lt;/b&gt; (RSs) with the
+personalization...to address the &lt;b class="match term0"&gt;information&lt;/b&gt;-&lt;b class="match term1"&gt;overload&lt;/b&gt;
+problem as the</hlight>
+			<abs>  Project ATHENA aims to develop an application to address information
+overload, primarily focused on Recommendation Systems (RSs) with the
+personalization and user experience design of a modern system. Two machine
+learning (ML) algorithms were used: (1) TF-IDF for Content-based filtering
+(CBF); (2) Classification with Matrix Factorization- Singular Value
+Decomposition(SVD) applied with Collaborative filtering (CF) and mean
+(normalization) for prediction accuracy of the CF. Data sampling in academic
+Research and Development of Philippine Council for Agriculture, Aquatic, and
+Natural Resources Research and Development (PCAARRD) e-Library and Project
+SARAI publications plus simulated data used as training sets to generate a
+recommendation of items that uses the three RS filtering (CF, CBF, and
+personalized version of item recommendations). Series of Testing and TAM
+performed and discussed. Findings allow users to engage in online information
+and quickly evaluate retrieved items produced by the application.
+Compatibility-testing (CoT) shows the application is compatible with all major
+browsers and mobile-friendly. Performance-testing (PT) recommended v-parameter
+specs and TAM evaluations results indicate strongly associated with overall
+positive feedback, thoroughly enough to address the information-overload
+problem as the core of the paper. A modular architecture presented addressing
+the information overload, primarily focused on RSs with the personalization and
+design of modern systems. Developers utilized Two ML algorithms and prototyped
+a simplified version of the architecture. Series of testing (CoT and PT) and
+evaluations with TAM were performed and discussed. Project ATHENA added a UX
+feature design of a modern system.
+</abs>
+		</text>
+		<text id="arXiv:2011.02260">
+			<title>Graph Neural Networks in Recommender Systems: A Survey</title>
+			<hlight>growth of online &lt;b class="match term0"&gt;information&lt;/b&gt;, &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; play a
+key role to...application value of &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt;, there have always...&lt;b class="match term0"&gt;information&lt;/b&gt; in
+&lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; essentially has</hlight>
+			<abs>  With the explosive growth of online information, recommender systems play a
+key role to alleviate such information overload. Due to the important
+application value of recommender systems, there have always been emerging works
+in this field. In recommender systems, the main challenge is to learn the
+effective user/item representations from their interactions and side
+information (if any). Recently, graph neural network (GNN) techniques have been
+widely utilized in recommender systems since most of the information in
+recommender systems essentially has graph structure and GNN has superiority in
+graph representation learning. This article aims to provide a comprehensive
+review of recent research efforts on GNN-based recommender systems.
+Specifically, we provide a taxonomy of GNN-based recommendation models
+according to the types of information used and recommendation tasks. Moreover,
+we systematically analyze the challenges of applying GNN on different types of
+data and discuss how existing works in this field address these challenges.
+Furthermore, we state new perspectives pertaining to the development of this
+field. We collect the representative papers along with their open-source
+implementations in https://github.com/wusw14/GNN-in-RS.
+</abs>
+		</text>
+		<text id="arXiv:1703.09108">
+			<title>Mr. DLib: Recommendations-as-a-Service (RaaS) for Academia</title>
+			<hlight>managers offer &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt;,
+although such &lt;b class="match term3"&gt;systems&lt;/b&gt; could assist users...facing &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt;. In this
+paper, we...easily integrate a &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term2"&gt;system&lt;/b&gt; into their products</hlight>
+			<abs>  Only few digital libraries and reference managers offer recommender systems,
+although such systems could assist users facing information overload. In this
+paper, we introduce Mr. DLib's recommendations-as-a-service, which allows third
+parties to easily integrate a recommender system into their products. We
+explain the recommender approaches implemented in Mr. DLib (content-based
+filtering among others), and present details on 57 million recommendations,
+which Mr. DLib delivered to its partner GESIS Sowiport. Finally, we outline our
+plans for future development, including integration into JabRef, establishing a
+living lab, and providing personalized recommendations.
+</abs>
+		</text>
+		<text id="arXiv:1303.6369">
+			<title>Extracting the information backbone in online system</title>
+			<hlight>&lt;b class="match term3"&gt;Information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt; is a serious problem...the essential &lt;b class="match term0"&gt;information&lt;/b&gt; for the &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt;. From the practical...time of the &lt;b class="match term4"&gt;recommendation&lt;/b&gt; &lt;b class="match term2"&gt;system&lt;/b&gt;, thus improve both</hlight>
+			<abs>  Information overload is a serious problem in modern society and many
+solutions such as recommender system have been proposed to filter out
+irrelevant information. In the literature, researchers mainly dedicated to
+improve the recommendation performance (accuracy and diversity) of the
+algorithms while overlooked the influence of topology of the online user-object
+bipartite networks. In this paper, we find that some information provided by
+the bipartite networks is not only redundant but also misleading. With such
+"less can be more" feature, we design some algorithms to improve the
+recommendation performance by eliminating some links from the original
+networks. Moreover, we propose a hybrid method combining the time-aware and
+topology-aware link removal algorithms to extract the backbone which contains
+the essential information for the recommender systems. From the practical point
+of view, our method can improve the performance and reduce the computational
+time of the recommendation system, thus improve both of their effectiveness and
+efficiency.
+</abs>
+		</text>
+		<text id="arXiv:1909.12807">
+			<title>Research Commentary on Recommendations with Side Information: A Survey
+  and Research Directions</title>
+			<hlight>&lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; have become an essential...decades. Traditional &lt;b class="match term4"&gt;recommender&lt;/b&gt;
+&lt;b class="match term3"&gt;systems&lt;/b&gt;, however, suffer...recent research on &lt;b class="match term4"&gt;recommender&lt;/b&gt;
+&lt;b class="match term3"&gt;systems&lt;/b&gt; with side &lt;b class="match term0"&gt;information&lt;/b&gt;. Specifically</hlight>
+			<abs>  Recommender systems have become an essential tool to help resolve the information overload problem in recent decades. Traditional recommender systems, however, suffer from data sparsity and cold start problems. To address these issues, a great number of recommendation algorithms have been proposed to
+leverage side information of users or items (e.g., social network and item
+category), demonstrating a high degree of effectiveness in improving
+recommendation performance. This Research Commentary aims to provide a
+comprehensive and systematic survey of the recent research on recommender
+systems with side information. Specifically, we provide an overview of
+state-of-the-art recommendation algorithms with side information from two
+orthogonal perspectives. One involves the different methodologies of
+recommendation: the memory-based methods, latent factor, representation
+learning, and deep learning models. The others cover different representations
+of side information, including structural data (flat, network, and hierarchical
+features, and knowledge graphs); and non-structural data (text, image and video
+features). Finally, we discuss challenges and provide new potential directions
+in recommendation, along with the conclusion of this survey.
+</abs>
+		</text>
+		<text id="arXiv:0802.3748">
+			<title>Information Filtering via Self-Consistent Refinement</title>
+			<hlight>&lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; are significant...&lt;b class="match term1"&gt;overload&lt;/b&gt;. In this Letter, we develop a general
+framework...two
+representative &lt;b class="match term4"&gt;recommendation&lt;/b&gt; algorithms</hlight>
+			<abs>  Recommender systems are significant to help people deal with the world of
+information explosion and overload. In this Letter, we develop a general
+framework named self-consistent refinement and implement it be embedding two
+representative recommendation algorithms: similarity-based and spectrum-based
+methods. Numerical simulations on a benchmark data set demonstrate that the
+present method converges fast and can provide quite better performance than the
+standard methods.
+</abs>
+		</text>
+		<text id="arXiv:1309.0129">
+			<title>Information filtering via hybridization of similarity preferential
+  diffusion processes</title>
+			<hlight>The &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term2"&gt;system&lt;/b&gt; is one of the most...ways to address the
+&lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt; problem in online...the &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term2"&gt;system&lt;/b&gt; can find interesting</hlight>
+			<abs>  The recommender system is one of the most promising ways to address the
+information overload problem in online systems. Based on the personal
+historical record, the recommender system can find interesting and relevant
+objects for the user within a huge information space. Many physical processes
+such as the mass diffusion and heat conduction have been applied to design the
+recommendation algorithms. The hybridization of these two algorithms has been
+shown to provide both accurate and diverse recommendation results. In this
+paper, we proposed two similarity preferential diffusion processes. Extensive
+experimental analyses on two benchmark data sets demonstrate that both
+recommendation and accuracy and diversity are improved duet to the similarity
+preference in the diffusion. The hybridization of the similarity preferential
+diffusion processes is shown to significantly outperform the state-of-art
+recommendation algorithm. Finally, our analysis on network sparsity show that
+there is significant difference between dense and sparse system, indicating
+that all the former conclusions on recommendation in the literature should be
+reexamined in sparse system.
+</abs>
+		</text>
+		<text id="arXiv:1805.02276">
+			<title>Mobile recommender systems: Identifying the major concepts</title>
+			<hlight>an impact on mobile &lt;b class="match term4"&gt;recommender&lt;/b&gt;
+&lt;b class="match term3"&gt;systems&lt;/b&gt;. &lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; have become a technology...of using mobile &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt;. The links between...web and mobile &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; and to provide solid</hlight>
+			<abs>  This paper identifies the factors that have an impact on mobile recommender
+systems. Recommender systems have become a technology that has been widely used
+by various online applications in situations where there is an information
+overload problem. Numerous applications such as e-Commerce, video platforms and
+social networks provide personalized recommendations to their users and this
+has improved the user experience and vendor revenues. The development of
+recommender systems has been focused mostly on the proposal of new algorithms
+that provide more accurate recommendations. However, the use of mobile devices
+and the rapid growth of the internet and networking infrastructure has brought
+the necessity of using mobile recommender systems. The links between web and
+mobile recommender systems are described along with how the recommendations in
+mobile environments can be improved. This work is focused on identifying the
+links between web and mobile recommender systems and to provide solid future
+directions that aim to lead in a more integrated mobile recommendation domain.
+</abs>
+		</text>
+		<text id="arXiv:1102.5499">
+			<title>Information filtering via preferential diffusion</title>
+			<hlight>&lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; have shown great...potential to address &lt;b class="match term0"&gt;information&lt;/b&gt;
+&lt;b class="match term1"&gt;overload&lt;/b&gt; problem, namely...more accurate &lt;b class="match term0"&gt;recommendations&lt;/b&gt;, but also</hlight>
+			<abs>  Recommender systems have shown great potential to address information
+overload problem, namely to help users in finding interesting and relevant
+objects within a huge information space. Some physical dynamics, including heat
+conduction process and mass or energy diffusion on networks, have recently
+found applications in personalized recommendation. Most of the previous studies
+focus overwhelmingly on recommendation accuracy as the only important factor,
+while overlook the significance of diversity and novelty which indeed provide
+the vitality of the system. In this paper, we propose a recommendation
+algorithm based on the preferential diffusion process on user-object bipartite
+network. Numerical analyses on two benchmark datasets, MovieLens and Netflix,
+indicate that our method outperforms the state-of-the-art methods.
+Specifically, it can not only provide more accurate recommendations, but also
+generate more diverse and novel recommendations by accurately recommending
+unpopular objects.
+</abs>
+		</text>
+		<text id="arXiv:1901.00306">
+			<title>The TagRec Framework as a Toolkit for the Development of Tag-Based
+  Recommender Systems</title>
+			<hlight>the
+development of &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt;, a number of &lt;b class="match term4"&gt;recommender&lt;/b&gt; frameworks...evaluating tag-based &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt;. In this paper,
+we...process of tag-based &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; in two
+large scale</hlight>
+			<abs>  Recommender systems have become important tools to support users in
+identifying relevant content in an overloaded information space. To ease the
+development of recommender systems, a number of recommender frameworks have
+been proposed that serve a wide range of application domains. Our TagRec
+framework is one of the few examples of an open-source framework tailored
+towards developing and evaluating tag-based recommender systems. In this paper,
+we present the current, updated state of TagRec, and we summarize and reflect
+on four use cases that have been implemented with TagRec: (i) tag
+recommendations, (ii) resource recommendations, (iii) recommendation
+evaluation, and (iv) hashtag recommendations. To date, TagRec served the
+development and/or evaluation process of tag-based recommender systems in two
+large scale European research projects, which have been described in 17
+research papers. Thus, we believe that this work is of interest for both
+researchers and practitioners of tag-based recommender systems.
+</abs>
+		</text>
+		<text id="arXiv:2008.05399">
+			<title>Improving information retrieval from electronic health records using
+  dynamic and multi-collaborative filtering</title>
+			<hlight>suffer from &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt; when they review...records. This method
+&lt;b class="match term1"&gt;recommends&lt;/b&gt; relevant &lt;b class="match term0"&gt;information&lt;/b&gt; from electronic...originating
+from &lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term1"&gt;Systems&lt;/b&gt;, to prioritize &lt;b class="match term0"&gt;information&lt;/b&gt; based on various</hlight>
+			<abs>  Due to the rapid growth of information available about individual patients,
+most physicians suffer from information overload when they review patient
+information in health information technology systems. In this manuscript, we
+present a novel hybrid dynamic and multi-collaborative filtering method to
+improve information retrieval from electronic health records. This method
+recommends relevant information from electronic health records for physicians
+during patient visits. It models information search dynamics using a Markov
+model. It also leverages the key idea of collaborative filtering, originating
+from Recommender Systems, to prioritize information based on various
+similarities among physicians, patients and information items. We tested this
+new method using real electronic health record data from the Indiana Network
+for Patient Care. Our experimental results demonstrated that for 46.7% of
+testing cases, this new method is able to correctly prioritize relevant
+information among top-5 recommendations that physicians are truly interested
+in.
+</abs>
+		</text>
+		<text id="arXiv:2011.05614">
+			<title>A Novel Privacy-Preserved Recommender System Framework based on
+  Federated Learning</title>
+			<hlight>&lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term2"&gt;System&lt;/b&gt; (RS) is currently an...way to solve &lt;b class="match term0"&gt;information&lt;/b&gt;
+&lt;b class="match term1"&gt;overload&lt;/b&gt;. To meet users' next...privacy-preserved &lt;b class="match term4"&gt;recommender&lt;/b&gt;
+&lt;b class="match term2"&gt;system&lt;/b&gt; framework (PPRSF</hlight>
+			<abs>  Recommender System (RS) is currently an effective way to solve information
+overload. To meet users' next click behavior, RS needs to collect users'
+personal information and behavior to achieve a comprehensive and profound user
+preference perception. However, these centrally collected data are
+privacy-sensitive, and any leakage may cause severe problems to both users and
+service providers. This paper proposed a novel privacy-preserved recommender
+system framework (PPRSF), through the application of federated learning
+paradigm, to enable the recommendation algorithm to be trained and carry out
+inference without centrally collecting users' private data. The PPRSF not only
+able to reduces the privacy leakage risk, satisfies legal and regulatory
+requirements but also allows various recommendation algorithms to be applied.
+</abs>
+		</text>
+		<text id="arXiv:cs/0205059">
+			<title>A Connection-Centric Survey of Recommender Systems Research</title>
+			<hlight>While research in &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; grew out of &lt;b class="match term0"&gt;information&lt;/b&gt;
+retrieval...viewpoint toward &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; research. We posit...in extant data.
+Thus, &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; are characterized</hlight>
+			<abs>  Recommender systems attempt to reduce information overload and retain
+customers by selecting a subset of items from a universal set based on user
+preferences. While research in recommender systems grew out of information
+retrieval and filtering, the topic has steadily advanced into a legitimate and
+challenging research area of its own. Recommender systems have traditionally
+been studied from a content-based filtering vs. collaborative design
+perspective. Recommendations, however, are not delivered within a vacuum, but
+rather cast within an informal community of users and social context.
+Therefore, ultimately all recommender systems make connections among people and
+thus should be surveyed from such a perspective. This viewpoint is
+under-emphasized in the recommender systems literature. We therefore take a
+connection-oriented viewpoint toward recommender systems research. We posit
+that recommendation has an inherently social element and is ultimately intended
+to connect people either directly as a result of explicit user modeling or
+indirectly through the discovery of relationships implicit in extant data.
+Thus, recommender systems are characterized by how they model users to bring
+people together: explicitly or implicitly. Finally, user modeling and the
+connection-centric viewpoint raise broadening and social issues--such as
+evaluation, targeting, and privacy and trust--which we also briefly address.
+</abs>
+		</text>
+		<text id="arXiv:1707.07435">
+			<title>Deep Learning based Recommender System: A Survey and New Perspectives</title>
+			<hlight>volume of online &lt;b class="match term0"&gt;information&lt;/b&gt;, &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; have
+been an effective...&lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt;
+research. Evidently...deep learning based &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt;. More concretely</hlight>
+			<abs>  With the ever-growing volume of online information, recommender systems have
+been an effective strategy to overcome such information overload. The utility
+of recommender systems cannot be overstated, given its widespread adoption in
+many web applications, along with its potential impact to ameliorate many
+problems related to over-choice. In recent years, deep learning has garnered
+considerable interest in many research fields such as computer vision and
+natural language processing, owing not only to stellar performance but also the
+attractive property of learning feature representations from scratch. The
+influence of deep learning is also pervasive, recently demonstrating its
+effectiveness when applied to information retrieval and recommender systems
+research. Evidently, the field of deep learning in recommender system is
+flourishing. This article aims to provide a comprehensive review of recent
+research efforts on deep learning based recommender systems. More concretely,
+we provide and devise a taxonomy of deep learning based recommendation models,
+along with providing a comprehensive summary of the state-of-the-art. Finally,
+we expand on current trends and provide new perspectives pertaining to this new
+exciting development of the field.
+</abs>
+		</text>
+		<text id="arXiv:1511.06252">
+			<title>Network-based recommendation algorithms: A review</title>
+			<hlight>&lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; are a vital tool...us to overcome the
+&lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt; problem. They are...community. A &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term2"&gt;system&lt;/b&gt;
+uses data on users</hlight>
+			<abs>  Recommender systems are a vital tool that helps us to overcome the
+information overload problem. They are being used by most e-commerce web sites
+and attract the interest of a broad scientific community. A recommender system
+uses data on users' past preferences to choose new items that might be
+appreciated by a given individual user. While many approaches to recommendation
+exist, the approach based on a network representation of the input data has
+gained considerable attention in the past. We review here a broad range of
+network-based recommendation algorithms and for the first time compare their
+performance on three distinct real datasets. We present recommendation topics
+that go beyond the mere question of which algorithm to use - such as the
+possible influence of recommendation on the evolution of systems that use it -
+and finally discuss open research directions and challenges.
+</abs>
+		</text>
+		<text id="arXiv:1907.06853">
+			<title>Deep Social Collaborative Filtering</title>
+			<hlight>&lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; are crucial to alleviate...the &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt; problem
+in online...Most of the modern &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; capture users'
+preference</hlight>
+			<abs>  Recommender systems are crucial to alleviate the information overload problem
+in online worlds. Most of the modern recommender systems capture users'
+preference towards items via their interactions based on collaborative
+filtering techniques. In addition to the user-item interactions, social
+networks can also provide useful information to understand users' preference as
+suggested by the social theories such as homophily and influence. Recently,
+deep neural networks have been utilized for social recommendations, which
+facilitate both the user-item interactions and the social network information.
+However, most of these models cannot take full advantage of the social network
+information. They only use information from direct neighbors, but distant
+neighbors can also provide helpful information. Meanwhile, most of these models
+treat neighbors' information equally without considering the specific
+recommendations. However, for a specific recommendation case, the information
+relevant to the specific item would be helpful. Besides, most of these models
+do not explicitly capture the neighbor's opinions to items for social
+recommendations, while different opinions could affect the user differently. In
+this paper, to address the aforementioned challenges, we propose DSCF, a Deep
+Social Collaborative Filtering framework, which can exploit the social
+relations with various aspects for recommender systems. Comprehensive
+experiments on two-real world datasets show the effectiveness of the proposed
+framework.
+</abs>
+		</text>
+		<text id="arXiv:2110.03455">
+			<title>Recent Advances in Heterogeneous Relation Learning for Recommendation</title>
+			<hlight>&lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; have played a critical...and alleviate the &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt;. In
+this survey...graph-enhanced &lt;b class="match term4"&gt;recommender&lt;/b&gt;
+&lt;b class="match term2"&gt;system&lt;/b&gt;, and multi-behavior</hlight>
+			<abs>  Recommender systems have played a critical role in many web applications to
+meet user's personalized interests and alleviate the information overload. In
+this survey, we review the development of recommendation frameworks with the
+focus on heterogeneous relational learning, which consists of different types
+of dependencies among users and items. The objective of this task is to map
+heterogeneous relational data into latent representation space, such that the
+structural and relational properties from both user and item domain can be well
+preserved. To address this problem, recent research developments can fall into
+three major lines: social recommendation, knowledge graph-enhanced recommender
+system, and multi-behavior recommendation. We discuss the learning approaches
+in each category, such as matrix factorization, attention mechanism and graph
+neural networks, for effectively distilling heterogeneous contextual
+information. Finally, we present an exploratory outlook to highlight several
+promising directions and opportunities in heterogeneous relational learning
+frameworks for recommendation.
+</abs>
+		</text>
+		<text id="arXiv:1807.06300">
+			<title>Knowledge-aware Autoencoders for Explainable Recommender Sytems</title>
+			<hlight>&lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term1"&gt;Systems&lt;/b&gt; have been widely...thus tackling the &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt; problem. After...criteria for a &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term2"&gt;system&lt;/b&gt;.
+Experimental results</hlight>
+			<abs>  Recommender Systems have been widely used to help users in finding what they
+are looking for thus tackling the information overload problem. After several
+years of research and industrial findings looking after better algorithms to
+improve accuracy and diversity metrics, explanation services for recommendation
+are gaining momentum as a tool to provide a human-understandable feedback to
+results computed, in most of the cases, by black-box machine learning
+techniques. As a matter of fact, explanations may guarantee users satisfaction,
+trust, and loyalty in a system. In this paper, we evaluate how different
+information encoded in a Knowledge Graph are perceived by users when they are
+adopted to show them an explanation. More precisely, we compare how the use of
+categorical information, factual one or a mixture of them both in building
+explanations, affect explanatory criteria for a recommender system.
+Experimental results are validated through an A/B testing platform which uses a
+recommendation engine based on a Semantics-Aware Autoencoder to build users
+profiles which are in turn exploited to compute recommendation lists and to
+provide an explanation.
+</abs>
+		</text>
+		<text id="arXiv:0709.2562">
+			<title>When are recommender systems useful?</title>
+			<hlight>&lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; are crucial tools...to overcome the &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt;
+brought about...deal of
+additional &lt;b class="match term0"&gt;information&lt;/b&gt; in &lt;b class="match term3"&gt;systems&lt;/b&gt; where external</hlight>
+			<abs>  Recommender systems are crucial tools to overcome the information overload
+brought about by the Internet. Rigorous tests are needed to establish to what
+extent sophisticated methods can improve the quality of the predictions. Here
+we analyse a refined correlation-based collaborative filtering algorithm and
+compare it with a novel spectral method for recommending. We test them on two
+databases that bear different statistical properties (MovieLens and Jester)
+without filtering out the less active users and ordering the opinions in time,
+whenever possible. We find that, when the distribution of user-user
+correlations is narrow, simple averages work nearly as well as advanced
+methods. Recommender systems can, on the other hand, exploit a great deal of
+additional information in systems where external influence is negligible and
+peoples' tastes emerge entirely. These findings are validated by simulations
+with artificially generated data.
+</abs>
+		</text>
+		<text id="arXiv:cs/0703042">
+			<title>Recommender System for Online Dating Service</title>
+			<hlight>sites are facing &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt; that requires...paper we describe a &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term2"&gt;system&lt;/b&gt; we implemented and...popularity &lt;b class="match term0"&gt;recommendations&lt;/b&gt;. &lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt;
+show a great potential</hlight>
+			<abs>  Users of online dating sites are facing information overload that requires
+them to manually construct queries and browse huge amount of matching user
+profiles. This becomes even more problematic for multimedia profiles. Although
+matchmaking is frequently cited as a typical application for recommender
+systems, there is a surprising lack of work published in this area. In this
+paper we describe a recommender system we implemented and perform a
+quantitative comparison of two collaborative filtering (CF) and two global
+algorithms. Results show that collaborative filtering recommenders
+significantly outperform global algorithms that are currently used by dating
+sites. A blind experiment with real users also confirmed that users prefer CF
+based recommendations to global popularity recommendations. Recommender systems
+show a great potential for online dating where they could improve the value of
+the service to users and improve monetization of the service.
+</abs>
+		</text>
+		<text id="arXiv:1012.1099">
+			<title>Heterogeneity, quality, and reputation in an adaptive recommendation
+  model</title>
+			<hlight>&lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; help people cope...with the problem of &lt;b class="match term0"&gt;information&lt;/b&gt;
+&lt;b class="match term1"&gt;overload&lt;/b&gt;. A recently proposed...reputation in the &lt;b class="match term4"&gt;recommendation&lt;/b&gt; process</hlight>
+			<abs>  Recommender systems help people cope with the problem of information
+overload. A recently proposed adaptive news recommender model [Medo et al.,
+2009] is based on epidemic-like spreading of news in a social network. By means
+of agent-based simulations we study a "good get richer" feature of the model
+and determine which attributes are necessary for a user to play a leading role
+in the network. We further investigate the filtering efficiency of the model as
+well as its robustness against malicious and spamming behaviour. We show that
+incorporating user reputation in the recommendation process can substantially
+improve the outcome.
+</abs>
+		</text>
+		<text id="arXiv:2203.05824">
+			<title>Towards Analyzing the Bias of News Recommender Systems Using Sentiment
+  and Stance Detection</title>
+			<hlight>News &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; are used by online...to alleviate
+&lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt; and to provide...with four different
+&lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt;, our results show</hlight>
+			<abs>  News recommender systems are used by online news providers to alleviate
+information overload and to provide personalized content to users. However,
+algorithmic news curation has been hypothesized to create filter bubbles and to
+intensify users' selective exposure, potentially increasing their vulnerability
+to polarized opinions and fake news. In this paper, we show how information on
+news items' stance and sentiment can be utilized to analyze and quantify the
+extent to which recommender systems suffer from biases. To that end, we have
+annotated a German news corpus on the topic of migration using stance detection
+and sentiment analysis. In an experimental evaluation with four different
+recommender systems, our results show a slight tendency of all four models for
+recommending articles with negative sentiments and stances against the topic of
+refugees and migration. Moreover, we observed a positive correlation between
+the sentiment and stance bias of the text-based recommenders and the
+preexisting user bias, which indicates that these systems amplify users'
+opinions and decrease the diversity of recommended news. The knowledge-aware
+model appears to be the least prone to such biases, at the cost of predictive
+accuracy.
+</abs>
+		</text>
+		<text id="arXiv:2203.12596">
+			<title>ZOOMER: Boosting Retrieval on Web-scale Graphs by Regions of Interest</title>
+			<hlight>due to the &lt;b class="match term0"&gt;information&lt;/b&gt;
+&lt;b class="match term1"&gt;overload&lt;/b&gt; which distracts...and mitigating the &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt; at
+the same time...scale distributed &lt;b class="match term2"&gt;system&lt;/b&gt;, ZOOMER supports</hlight>
+			<abs>  We introduce ZOOMER, a system deployed at Taobao, the largest e-commerce
+platform in China, for training and serving GNN-based recommendations over
+web-scale graphs. ZOOMER is designed for tackling two challenges presented by
+the massive user data at Taobao: low training/serving efficiency due to the
+huge scale of the graphs, and low recommendation quality due to the information
+overload which distracts the recommendation model from specific user
+intentions. ZOOMER achieves this by introducing a key concept, Region of
+Interests (ROI) in GNNs for recommendations, i.e., a neighborhood region in the
+graph with significant relevance to a strong user intention. ZOOMER narrows the
+focus from the whole graph and "zooms in" on the more relevant ROIs, thereby
+reducing the training/serving cost and mitigating the information overload at
+the same time. With carefully designed mechanisms, ZOOMER identifies the
+interest expressed by each recommendation request, constructs an ROI subgraph
+by sampling with respect to the interest, and guides the GNN to reweigh
+different parts of the ROI towards the interest by a multi-level attention
+module. Deployed as a large-scale distributed system, ZOOMER supports graphs
+with billions of nodes for training and thousands of requests per second for
+serving. ZOOMER achieves up to 14x speedup when downsizing sampling scales with
+comparable (even better) AUC performance than baseline methods. Besides, both
+the offline evaluation and online A/B test demonstrate the effectiveness of
+ZOOMER.
+</abs>
+		</text>
+		<text id="arXiv:2202.10236">
+			<title>Edge Data Based Trailer Inception Probabilistic Matrix Factorization for
+  Context-Aware Movie Recommendation</title>
+			<hlight>the problem of &lt;b class="match term0"&gt;information&lt;/b&gt;
+&lt;b class="match term1"&gt;overload&lt;/b&gt;. As an effective...way to alleviate &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt;, &lt;b class="match term4"&gt;recommender&lt;/b&gt;
+&lt;b class="match term2"&gt;system&lt;/b&gt; can improve the quality...part of the movie &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term2"&gt;system&lt;/b&gt;. However, due to the</hlight>
+			<abs>  The rapid growth of edge data generated by mobile devices and applications
+deployed at the edge of the network has exacerbated the problem of information
+overload. As an effective way to alleviate information overload, recommender
+system can improve the quality of various services by adding application data
+generated by users on edge devices, such as visual and textual information, on
+the basis of sparse rating data. The visual information in the movie trailer is
+a significant part of the movie recommender system. However, due to the
+complexity of visual information extraction, data sparsity cannot be remarkably
+alleviated by merely using the rough visual features to improve the rating
+prediction accuracy. Fortunately, the convolutional neural network can be used
+to extract the visual features precisely. Therefore, the end-to-end neural
+image caption (NIC) model can be utilized to obtain the textual information
+describing the visual features of movie trailers. This paper proposes a trailer
+inception probabilistic matrix factorization model called Ti-PMF, which
+combines NIC, recurrent convolutional neural network, and probabilistic matrix
+factorization models as the rating prediction model. We implement the proposed
+Ti-PMF model with extensive experiments on three real-world datasets to
+validate its effectiveness. The experimental results illustrate that the
+proposed Ti-PMF outperforms the existing ones.
+</abs>
+		</text>
+		<text id="arXiv:1904.10367">
+			<title>Contextual Hybrid Session-based News Recommendation with Recurrent
+  Neural Networks</title>
+			<hlight>&lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; help users deal...&lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt; by providing
+tailored...Context-Aware &lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term1"&gt;Systems&lt;/b&gt;,
+Hybrid &lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term1"&gt;Systems&lt;/b&gt;, News &lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term1"&gt;Systems&lt;/b&gt;, Session-based
+&lt;b class="match term0"&gt;Recommendation&lt;/b&gt;</hlight>
+			<abs>  Recommender systems help users deal with information overload by providing
+tailored item suggestions to them. The recommendation of news is often
+considered to be challenging, since the relevance of an article for a user can
+depend on a variety of factors, including the user's short-term reading
+interests, the reader's context, or the recency or popularity of an article.
+Previous work has shown that the use of Recurrent Neural Networks is promising
+for the next-in-session prediction task, but has certain limitations when only
+recorded item click sequences are used as input. In this work, we present a
+contextual hybrid, deep learning based approach for session-based news
+recommendation that is able to leverage a variety of information types. We
+evaluated our approach on two public datasets, using a temporal evaluation
+protocol that simulates the dynamics of a news portal in a realistic way. Our
+results confirm the benefits of considering additional types of information,
+including article popularity and recency, in the proposed way, resulting in
+significantly higher recommendation accuracy and catalog coverage than other
+session-based algorithms. Additional experiments show that the proposed
+parameterizable loss function used in our method also allows us to balance two
+usually conflicting quality factors, accuracy and novelty.
+  Keywords: Artificial Neural Networks, Context-Aware Recommender Systems,
+Hybrid Recommender Systems, News Recommender Systems, Session-based
+Recommendation
+</abs>
+		</text>
+		<text id="arXiv:1908.08328">
+			<title>Measuring the Business Value of Recommender Systems</title>
+			<hlight>in terms of reduced &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt;. To
+what extent...in which ways &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; create business...on field tests of
+&lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; and report which</hlight>
+			<abs>  Recommender Systems are nowadays successfully used by all major web sites
+(from e-commerce to social media) to filter content and make suggestions in a
+personalized way. Academic research largely focuses on the value of
+recommenders for consumers, e.g., in terms of reduced information overload. To
+what extent and in which ways recommender systems create business value is,
+however, much less clear, and the literature on the topic is scattered. In this
+research commentary, we review existing publications on field tests of
+recommender systems and report which business-related performance measures were
+used in such real-world deployments. We summarize common challenges of
+measuring the business value in practice and critically discuss the value of
+algorithmic improvements and offline experiments as commonly done in academic
+environments. Overall, our review indicates that various open questions remain
+both regarding the realistic quantification of the business effects of
+recommenders and the performance assessment of recommendation algorithms in
+academia.
+</abs>
+		</text>
+		<text id="arXiv:1210.1441">
+			<title>Adaptive social recommendation in a multiple category landscape</title>
+			<hlight>to cope with the &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt;,
+striving to find...framework the
+social &lt;b class="match term4"&gt;recommendation&lt;/b&gt; process...the
+precision of the &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term2"&gt;system&lt;/b&gt;. Finally, we discuss</hlight>
+			<abs>  People in the Internet era have to cope with the information overload,
+striving to find what they are interested in, and usually face this situation
+by following a limited number of sources or friends that best match their
+interests. A recent line of research, namely adaptive social recommendation,
+has therefore emerged to optimize the information propagation in social
+networks and provide users with personalized recommendations. Validation of
+these methods by agent-based simulations often assumes that the tastes of users
+and can be represented by binary vectors, with entries denoting users'
+preferences. In this work we introduce a more realistic assumption that users'
+tastes are modeled by multiple vectors. We show that within this framework the
+social recommendation process has a poor outcome. Accordingly, we design novel
+measures of users' taste similarity that can substantially improve the
+precision of the recommender system. Finally, we discuss the issue of enhancing
+the recommendations' diversity while preserving their accuracy.
+</abs>
+		</text>
+		<text id="arXiv:1801.00209">
+			<title>Deep Reinforcement Learning for List-wise Recommendations</title>
+			<hlight>of traditional &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; consider the &lt;b class="match term4"&gt;recommendation&lt;/b&gt;
+procedure...we propose a novel &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term2"&gt;system&lt;/b&gt; with the
+capability...between users and a
+&lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term2"&gt;system&lt;/b&gt; as a Markov Decision</hlight>
+			<abs>  Recommender systems play a crucial role in mitigating the problem of
+information overload by suggesting users' personalized items or services. The
+vast majority of traditional recommender systems consider the recommendation
+procedure as a static process and make recommendations following a fixed
+strategy. In this paper, we propose a novel recommender system with the
+capability of continuously improving its strategies during the interactions
+with users. We model the sequential interactions between users and a
+recommender system as a Markov Decision Process (MDP) and leverage
+Reinforcement Learning (RL) to automatically learn the optimal strategies via
+recommending trial-and-error items and receiving reinforcements of these items
+from users' feedbacks. In particular, we introduce an online user-agent
+interacting environment simulator, which can pre-train and evaluate model
+parameters offline before applying the model online. Moreover, we validate the
+importance of list-wise recommendations during the interactions between users
+and agent, and develop a novel approach to incorporate them into the proposed
+framework LIRD for list-wide recommendations. The experimental results based on
+a real-world e-commerce dataset demonstrate the effectiveness of the proposed
+framework.
+</abs>
+		</text>
+		<text id="arXiv:1805.02343">
+			<title>Deep Reinforcement Learning for Page-wise Recommendations</title>
+			<hlight>&lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt; problem by
+suggesting...and then the &lt;b class="match term2"&gt;system&lt;/b&gt;
+&lt;b class="match term1"&gt;recommends&lt;/b&gt; a new page of...to traditional &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt;. In this paper, we</hlight>
+			<abs>  Recommender systems can mitigate the information overload problem by
+suggesting users' personalized items. In real-world recommendations such as
+e-commerce, a typical interaction between the system and its users is -- users
+are recommended a page of items and provide feedback; and then the system
+recommends a new page of items. To effectively capture such interaction for
+recommendations, we need to solve two key problems -- (1) how to update
+recommending strategy according to user's \textit{real-time feedback}, and 2)
+how to generate a page of items with proper display, which pose tremendous
+challenges to traditional recommender systems. In this paper, we study the
+problem of page-wise recommendations aiming to address aforementioned two
+challenges simultaneously. In particular, we propose a principled approach to
+jointly generate a set of complementary items and the corresponding strategy to
+display them in a 2-D page; and propose a novel page-wise recommendation
+framework based on deep reinforcement learning, DeepPage, which can optimize a
+page of items with proper display based on real-time feedback from users. The
+experimental results based on a real-world e-commerce dataset demonstrate the
+effectiveness of the proposed framework.
+</abs>
+		</text>
+		<text id="arXiv:2109.09587">
+			<title>Recommender systems based on graph embedding techniques: A comprehensive
+  review</title>
+			<hlight>to alleviate the &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt; problem, &lt;b class="match term4"&gt;recommender&lt;/b&gt;
+&lt;b class="match term3"&gt;systems&lt;/b&gt; aim to predict user...encountered by &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt;, researchers resort...of that, equipping &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; with graph
+embedding</hlight>
+			<abs>  As a pivotal tool to alleviate the information overload problem, recommender
+systems aim to predict user's preferred items from millions of candidates by
+analyzing observed user-item relations. As for alleviating the sparsity and
+cold start problems encountered by recommender systems, researchers resort to
+employing side information or knowledge in recommendation as a strategy for
+uncovering hidden (indirect) user-item relations, aiming to enrich observed
+information (or data) for recommendation. However, in the face of the high
+complexity and large scale of side information and knowledge, this strategy
+relies for efficient implementation on the scalability of recommendation
+models. Not until after the prevalence of machine learning did graph embedding
+techniques be a concentration, which can efficiently utilize complex and
+large-scale data. In light of that, equipping recommender systems with graph
+embedding techniques has been widely studied these years, appearing to
+outperform conventional recommendation implemented directly based on graph
+topological analysis. As the focus, this article retrospects graph
+embedding-based recommendation from embedding techniques for bipartite graphs,
+general graphs and knowledge graphs, and proposes a general design pipeline of
+that. In addition, after comparing several representative graph embedding-based
+recommendation models with the most common-used conventional recommendation
+models on simulations, this article manifests that the conventional models can
+overall outperform the graph embedding-based ones in predicting implicit
+user-item interactions, revealing the comparative weakness of graph
+embedding-based recommendation in these tasks. To foster future research, this
+article proposes suggestions on making a trade-off between graph
+embedding-based recommendation and conventional recommendation in different
+tasks, and puts forward open questions.
+</abs>
+		</text>
+		<text id="arXiv:2012.09342">
+			<title>Adaptive Multi-Agent E-Learning Recommender Systems</title>
+			<hlight>internet.
+E-learning &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; simplify the tedious...the efficiency of &lt;b class="match term4"&gt;recommender&lt;/b&gt;
+&lt;b class="match term3"&gt;systems&lt;/b&gt;. The paper provides...agent e-learning
+&lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; and the concepts</hlight>
+			<abs>  Educational recommender systems have become a necessity in the recent years
+due to overload of available educational resource which makes it difficult for
+an individual to manually hunt for the required resource on the internet.
+E-learning recommender systems simplify the tedious task of gathering the right
+web pages and web documents from the scattered world wide web repositories
+according to every users' requirements thus increasing the demand and hence the
+curiosity to study them. Retrieval of a handful of recommendations from a very
+huge collection of web pages using different recommendation techniques becomes
+a productive and time efficient process when the system functions with a set of
+cooperative agents. The system is also required to keep up with the changing
+user interests and web resources in the dynamic web environment, and hence
+adaptivity is an important factor in determining the efficiency of recommender
+systems. The paper provides an overview of such adaptive multi-agent e-learning
+recommender systems and the concepts employed to implement them. It precisely
+provides all the information required by a researcher who wants to study the
+state-of-the-art work on such systems thus enabling him to decide on the
+implementation concepts for his own system.
+</abs>
+		</text>
+		<text id="arXiv:1802.06501">
+			<title>Recommendations with Negative Feedback via Pairwise Deep Reinforcement
+  Learning</title>
+			<hlight>of traditional &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; consider the &lt;b class="match term4"&gt;recommendation&lt;/b&gt;
+procedure...we propose a novel &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term2"&gt;system&lt;/b&gt; with the
+capability...the proposed deep &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term2"&gt;system&lt;/b&gt; (DEERS) framework</hlight>
+			<abs>  Recommender systems play a crucial role in mitigating the problem of
+information overload by suggesting users' personalized items or services. The
+vast majority of traditional recommender systems consider the recommendation
+procedure as a static process and make recommendations following a fixed
+strategy. In this paper, we propose a novel recommender system with the
+capability of continuously improving its strategies during the interactions
+with users. We model the sequential interactions between users and a
+recommender system as a Markov Decision Process (MDP) and leverage
+Reinforcement Learning (RL) to automatically learn the optimal strategies via
+recommending trial-and-error items and receiving reinforcements of these items
+from users' feedback. Users' feedback can be positive and negative and both
+types of feedback have great potentials to boost recommendations. However, the
+number of negative feedback is much larger than that of positive one; thus
+incorporating them simultaneously is challenging since positive feedback could
+be buried by negative one. In this paper, we develop a novel approach to
+incorporate them into the proposed deep recommender system (DEERS) framework.
+The experimental results based on real-world e-commerce data demonstrate the
+effectiveness of the proposed framework. Further experiments have been
+conducted to understand the importance of both positive and negative feedback
+in recommendations.
+</abs>
+		</text>
+		<text id="arXiv:1703.00034">
+			<title>Weighted Random Walk Sampling for Multi-Relational Recommendation</title>
+			<hlight>In the &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term3"&gt;overloaded&lt;/b&gt; web, personalized...&lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; are
+essential tools...both in terms of &lt;b class="match term4"&gt;recommendation&lt;/b&gt; accuracy</hlight>
+			<abs>  In the information overloaded web, personalized recommender systems are
+essential tools to help users find most relevant information. The most
+heavily-used recommendation frameworks assume user interactions that are
+characterized by a single relation. However, for many tasks, such as
+recommendation in social networks, user-item interactions must be modeled as a
+complex network of multiple relations, not only a single relation. Recently
+research on multi-relational factorization and hybrid recommender models has
+shown that using extended meta-paths to capture additional information about
+both users and items in the network can enhance the accuracy of recommendations
+in such networks. Most of this work is focused on unweighted heterogeneous
+networks, and to apply these techniques, weighted relations must be simplified
+into binary ones. However, information associated with weighted edges, such as
+user ratings, which may be crucial for recommendation, are lost in such
+binarization. In this paper, we explore a random walk sampling method in which
+the frequency of edge sampling is a function of edge weight, and apply this
+generate extended meta-paths in weighted heterogeneous networks. With this
+sampling technique, we demonstrate improved performance on multiple data sets
+both in terms of recommendation accuracy and model generation efficiency.
+</abs>
+		</text>
+		<text id="arXiv:1912.08932">
+			<title>Collaborative Filtering vs. Content-Based Filtering: differences and
+  similarities</title>
+			<hlight>&lt;b class="match term0"&gt;Recommendation&lt;/b&gt; &lt;b class="match term1"&gt;Systems&lt;/b&gt; (SR) suggest items...them with the &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt; problem. Two approaches...three algorithms of &lt;b class="match term4"&gt;recommendation&lt;/b&gt; were tested</hlight>
+			<abs>  Recommendation Systems (SR) suggest items exploring user preferences, helping
+them with the information overload problem. Two approaches to SR have received
+more prominence, Collaborative Filtering, and Content-Based Filtering.
+Moreover, even though studies are indicating their advantages and
+disadvantages, few results empirically prove their characteristics,
+similarities, and differences. In this work, an experimental methodology is
+proposed to perform comparisons between recommendation algorithms for different
+approaches going beyond the "precision of the predictions". For the
+experiments, three algorithms of recommendation were tested: a baseline for
+Collaborative Filtration and two algorithms for Content-based Filtering that
+were developed for this evaluation. The experiments demonstrate the behavior of
+these systems in different data sets, its main characteristics and especially
+the complementary aspect of the two main approaches.
+</abs>
+		</text>
+		<text id="arXiv:2106.08934">
+			<title>Personalized News Recommendation: Methods and Challenges</title>
+			<hlight>their &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt;. It
+has been extensively...a personalized news &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term2"&gt;system&lt;/b&gt; and the
+challenges...of personalized news &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt;. Finally,
+we raise</hlight>
+			<abs>  Personalized news recommendation is an important technique to help users find
+their interested news information and alleviate their information overload. It
+has been extensively studied over decades and has achieved notable success in
+improving users' news reading experience. However, there are still many
+unsolved problems and challenges that need to be further studied. To help
+researchers master the advances in personalized news recommendation over the
+past years, in this paper we present a comprehensive overview of personalized
+news recommendation. Instead of following the conventional taxonomy of news
+recommendation methods, in this paper we propose a novel perspective to
+understand personalized news recommendation based on its core problems and the
+associated techniques and challenges. We first review the techniques for
+tackling each core problem in a personalized news recommender system and the
+challenges they face. Next, we introduce the public datasets and evaluation
+methods for personalized news recommendation. We then discuss the key points on
+improving the responsibility of personalized news recommender systems. Finally,
+we raise several research directions that are worth investigating in the
+future. This paper can provide up-to-date and comprehensive views to help
+readers understand the personalized news recommendation field. We hope this
+paper can facilitate research on personalized news recommendation as well as
+related fields in natural language processing and data mining.
+</abs>
+		</text>
+		<text id="arXiv:2203.14257">
+			<title>BARCOR: Towards A Unified Framework for Conversational Recommendation
+  Systems</title>
+			<hlight>&lt;b class="match term0"&gt;Recommendation&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; focus on helping...in the
+situations of &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt;, where users' preferences...conversational
+&lt;b class="match term4"&gt;recommendation&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; (CRS) aim to understand</hlight>
+			<abs>  Recommendation systems focus on helping users find items of interest in the
+situations of information overload, where users' preferences are typically
+estimated by the past observed behaviors. In contrast, conversational
+recommendation systems (CRS) aim to understand users' preferences via
+interactions in conversation flows. CRS is a complex problem that consists of
+two main tasks: (1) recommendation and (2) response generation. Previous work
+often tried to solve the problem in a modular manner, where recommenders and
+response generators are separate neural models. Such modular architectures
+often come with a complicated and unintuitive connection between the modules,
+leading to inefficient learning and other issues. In this work, we propose a
+unified framework based on BART for conversational recommendation, which
+tackles two tasks in a single model. Furthermore, we also design and collect a
+lightweight knowledge graph for CRS in the movie domain. The experimental
+results show that the proposed methods achieve the state-of-the-art performance
+in terms of both automatic and human evaluation.
+</abs>
+		</text>
+		<text id="arXiv:2110.08403">
+			<title>Nalanda: A Socio-Technical Graph for Building Software Analytics Tools
+  at Enterprise Scale</title>
+			<hlight>&lt;b class="match term2"&gt;system&lt;/b&gt; 2. A large scale
+&lt;b class="match term4"&gt;recommendation&lt;/b&gt; &lt;b class="match term2"&gt;system&lt;/b&gt;, named Nalanda index...&lt;b class="match term2"&gt;system&lt;/b&gt; that aims at satisfying the
+&lt;b class="match term0"&gt;information&lt;/b&gt; needs of software...the
+Nalanda index &lt;b class="match term2"&gt;system&lt;/b&gt; provides &lt;b class="match term0"&gt;recommendations&lt;/b&gt; with an</hlight>
+			<abs>  Software development is information-dense knowledge work that requires
+collaboration with other developers and awareness of artifacts such as work
+items, pull requests, and files. With the speed of development increasing,
+information overload is a challenge for people developing and maintaining these
+systems. Finding information and people is difficult for software engineers,
+especially when they work in large software systems or have just recently
+joined a project. In this paper, we build a large scale data platform named
+Nalanda platform, which contains two subsystems: 1. A large scale
+socio-technical graph system, named Nalanda graph system 2. A large scale
+recommendation system, named Nalanda index system that aims at satisfying the
+information needs of software developers. The Nalanda graph is an enterprise
+scale graph with data from 6,500 repositories, with 37,410,706 nodes and
+128,745,590 edges. On top of the Nalanda graph system, we built software
+analytics applications including a newsfeed named MyNalanda, and based on
+organic growth alone, it has Daily Active Users (DAU) of 290 and Monthly Active
+Users (MAU) of 590. A preliminary user study shows that 74% of developers and
+engineering managers surveyed are favorable toward continued use of the
+platform for information discovery. The Nalanda index system constitutes two
+indices: artifact index and expert index. It uses the socio-technical graph
+(Nalanda graph system) to rank the results and provide better recommendations
+to software developers. A large scale quantitative evaluation shows that the
+Nalanda index system provides recommendations with an accuracy of 78% for the
+top three recommendations.
+</abs>
+		</text>
+		<text id="arXiv:1611.00812">
+			<title>Leveraging tagging and rating for recommendation: RMF meets weighted
+  diffusion on tripartite graphs</title>
+			<hlight>&lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; (RSs) have been a widely...to solving
+the &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt; problem. However...&lt;b class="match term0"&gt;information&lt;/b&gt; to improve
+&lt;b class="match term4"&gt;recommendation&lt;/b&gt; accuracy</hlight>
+			<abs>  Recommender systems (RSs) have been a widely exploited approach to solving
+the information overload problem. However, the performance is still limited due
+to the extreme sparsity of the rating data. With the popularity of Web 2.0, the
+social tagging system provides more external information to improve
+recommendation accuracy. Although some existing approaches combine the matrix
+factorization models with co-occurrence properties and context of tags, they
+neglect the issue of tag sparsity without the commonly associated tags problem
+that would also result in inaccurate recommendations. Consequently, in this
+paper, we propose a novel hybrid collaborative filtering model named
+WUDiff_RMF, which improves Regularized Matrix Factorization (RMF) model by
+integrating Weighted User-Diffusion-based CF algorithm(WUDiff) that obtains the
+information of similar users from the weighted tripartite user-item-tag graph.
+This model aims to capture the degree correlation of the user-item-tag
+tripartite network to enhance the performance of recommendation. Experiments
+conducted on four real-world datasets demonstrate that our approach
+significantly performs better than already widely used methods in the accuracy
+of recommendation. Moreover, results show that WUDiff_RMF can alleviate the
+data sparsity, especially in the circumstance that users have made few ratings
+and few tags.
+</abs>
+		</text>
+		<text id="arXiv:1604.07044">
+			<title>Analyzing User Preference for Social Image Recommendation</title>
+			<hlight>media platforms, &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; have become an important...users' burden on the &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt;. In such a scenario...to more effective
+&lt;b class="match term0"&gt;recommendations&lt;/b&gt;, , with a</hlight>
+			<abs>  With the incredibly growing amount of multimedia data shared on the social
+media platforms, recommender systems have become an important necessity to ease
+users' burden on the information overload. In such a scenario, extensive amount
+of heterogeneous information such as tags, image content, in addition to the
+user-to-item preferences, is extremely valuable for making effective
+recommendations. In this paper, we explore a novel hybrid algorithm termed {\em
+STM}, for image recommendation. STM jointly considers the problem of image
+content analysis with the users' preferences on the basis of sparse
+representation. STM is able to tackle the challenges of highly sparse user
+feedbacks and cold-start problmes in the social network scenario. In addition,
+our model is based on the classical probabilistic matrix factorization and can
+be easily extended to incorporate other useful information such as the social
+relationships. We evaluate our approach with a newly collected 0.3 million
+social image data set from Flickr. The experimental results demonstrate that
+sparse topic modeling of the image content leads to more effective
+recommendations, , with a significant performance gain over the
+state-of-the-art alternatives.
+</abs>
+		</text>
+		<text id="arXiv:1209.1318">
+			<title>Finding and Recommending Scholarly Articles</title>
+			<hlight>by online scholarly
+&lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt;. All these &lt;b class="match term3"&gt;systems&lt;/b&gt; are relatively...by the scholarly &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt;
+themselves. In what...follows we view the &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term2"&gt;system&lt;/b&gt; as an aspect of the</hlight>
+			<abs>  The rate at which scholarly literature is being produced has been increasing
+at approximately 3.5 percent per year for decades. This means that during a
+typical 40 year career the amount of new literature produced each year
+increases by a factor of four. The methods scholars use to discover relevant
+literature must change. Just like everybody else involved in information
+discovery, scholars are confronted with information overload. Two decades ago,
+this discovery process essentially consisted of paging through abstract books,
+talking to colleagues and librarians, and browsing journals. A time-consuming
+process, which could even be longer if material had to be shipped from
+elsewhere. Now much of this discovery process is mediated by online scholarly
+information systems. All these systems are relatively new, and all are still
+changing. They all share a common goal: to provide their users with access to
+the literature relevant to their specific needs. To achieve this each system
+responds to actions by the user by displaying articles which the system judges
+relevant to the user's current needs. Recently search systems which use
+particularly sophisticated methodologies to recommend a few specific papers to
+the user have been called "recommender systems". These methods are in line with
+the current use of the term "recommender system" in computer science. We do not
+adopt this definition, rather we view systems like these as components in a
+larger whole, which is presented by the scholarly information systems
+themselves. In what follows we view the recommender system as an aspect of the
+entire information system; one which combines the massive memory capacities of
+the machine with the cognitive abilities of the human user to achieve a
+human-machine synergy.
+</abs>
+		</text>
+		<text id="arXiv:2009.04964">
+			<title>News Recommender System: A review of recent progress, challenges, and
+  opportunities</title>
+			<hlight>content, news &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; (NRS)
+are developed...to relieve the &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt; problem and suggest...growth of building
+&lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; using deep learning</hlight>
+			<abs>  Nowadays, more and more news readers tend to read news online where they have
+access to millions of news articles from multiple sources. In order to help
+users to find the right and relevant content, news recommender systems (NRS)
+are developed to relieve the information overload problem and suggest news
+items that users might be interested in. In this paper, we highlight the major
+challenges faced by the news recommendation domain and identify the possible
+solutions from the state-of-the-art. Due to the rapid growth of building
+recommender systems using deep learning models, we divide our discussion in two
+parts. In the first part, we present an overview of the conventional
+recommendation solutions, datasets, evaluation criteria beyond accuracy and
+recommendation platforms being used in NRS. In the second part, we explain the
+deep learning-based recommendation solutions applied in NRS. Different from
+previous surveys, we also study the effects of news recommendations on user
+behavior and try to suggest the possible remedies to mitigate these effects. By
+providing the state-of-the-art knowledge, this survey can help researchers and
+practical professionals in their understanding of developments in news
+recommendation algorithms. It also sheds light on potential new directions
+</abs>
+		</text>
+		<text id="arXiv:1510.02348">
+			<title>A vertex similarity index for better personalized recommendation</title>
+			<hlight>&lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; benefit us in tackling...the problem of &lt;b class="match term0"&gt;information&lt;/b&gt;
+&lt;b class="match term1"&gt;overload&lt;/b&gt; by predicting...CosRA index to real &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; including
+MovieLens</hlight>
+			<abs>  Recommender systems benefit us in tackling the problem of information
+overload by predicting our potential choices among diverse niche objects. So
+far, a variety of personalized recommendation algorithms have been proposed and
+most of them are based on similarities, such as collaborative filtering and
+mass diffusion. Here, we propose a novel vertex similarity index named CosRA,
+which combines advantages of both the cosine index and the resource-allocation
+(RA) index. By applying the CosRA index to real recommender systems including
+MovieLens, Netflix and RYM, we show that the CosRA-based method has better
+performance in accuracy, diversity and novelty than some benchmark methods.
+Moreover, the CosRA index is free of parameters, which is a significant
+advantage in real applications. Further experiments show that the introduction
+of two turnable parameters cannot remarkably improve the overall performance of
+the CosRA index.
+</abs>
+		</text>
+		<text id="arXiv:1111.2530">
+			<title>A semantically enriched web usage based recommendation model</title>
+			<hlight>the
+&lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt; problem and provide...Web usage based
+&lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; are limited in their...make the
+&lt;b class="match term4"&gt;recommendation&lt;/b&gt; &lt;b class="match term2"&gt;system&lt;/b&gt; more functional</hlight>
+			<abs>  With the rapid growth of internet technologies, Web has become a huge
+repository of information and keeps growing exponentially under no editorial
+control. However the human capability to read, access and understand Web
+content remains constant. This motivated researchers to provide Web
+personalized online services such as Web recommendations to alleviate the
+information overload problem and provide tailored Web experiences to the Web
+users. Recent studies show that Web usage mining has emerged as a popular
+approach in providing Web personalization. However conventional Web usage based
+recommender systems are limited in their ability to use the domain knowledge of
+the Web application. The focus is only on Web usage data. As a consequence the
+quality of the discovered patterns is low. In this paper, we propose a novel
+framework integrating semantic information in the Web usage mining process.
+Sequential Pattern Mining technique is applied over the semantic space to
+discover the frequent sequential patterns. The frequent navigational patterns
+are extracted in the form of Ontology instances instead of Web page views and
+the resultant semantic patterns are used for generating Web page
+recommendations to the user. Experimental results shown are promising and
+proved that incorporating semantic information into Web usage mining process
+can provide us with more interesting patterns which consequently make the
+recommendation system more functional, smarter and comprehensive.
+</abs>
+		</text>
+		<text id="arXiv:1405.0770">
+			<title>Attributes Coupling based Item Enhanced Matrix Factorization Technique
+  for Recommender Systems</title>
+			<hlight>&lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term2"&gt;system&lt;/b&gt; has attracted lots...users
+alleviate the &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt; problem. Matrix...in the
+research of &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; due to its effectiveness</hlight>
+			<abs>  Recommender system has attracted lots of attentions since it helps users
+alleviate the information overload problem. Matrix factorization technique is
+one of the most widely employed collaborative filtering techniques in the
+research of recommender systems due to its effectiveness and efficiency in
+dealing with very large user-item rating matrices. Recently, based on the
+intuition that additional information provides useful insights for matrix
+factorization techniques, several recommendation algorithms have utilized
+additional information to improve the performance of matrix factorization
+methods. However, the majority focus on dealing with the cold start user
+problem and ignore the cold start item problem. In addition, there are few
+suitable similarity measures for these content enhanced matrix factorization
+approaches to compute the similarity between categorical items. In this paper,
+we propose attributes coupling based item enhanced matrix factorization method
+by incorporating item attribute information into matrix factorization technique
+as well as adapting the coupled object similarity to capture the relationship
+between items. Item attribute information is formed as an item relationship
+regularization term to regularize the process of matrix factorization.
+Specifically, the similarity between items is measured by the Coupled Object
+Similarity considering coupling between items. Experimental results on two real
+data sets show that our proposed method outperforms state-of-the-art
+recommendation algorithms and can effectively cope with the cold start item
+problem when more item attribute information is available.
+</abs>
+		</text>
+		<text id="arXiv:2007.16120">
+			<title>Reciprocal Recommender Systems: Analysis of State-of-Art Literature,
+  Challenges and Opportunities towards Social Recommendation</title>
+			<hlight>making under &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt; in the
+Internet...in a large city. &lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; arose as a data-driven...in a Reciprocal &lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term2"&gt;System&lt;/b&gt; (RRS) users
+become</hlight>
+			<abs>  There exist situations of decision-making under information overload in the
+Internet, where people have an overwhelming number of available options to
+choose from, e.g. products to buy in an e-commerce site, or restaurants to
+visit in a large city. Recommender systems arose as a data-driven personalized
+decision support tool to assist users in these situations: they are able to
+process user-related data, filtering and recommending items based on the users
+preferences, needs and/or behaviour. Unlike most conventional recommender
+approaches where items are inanimate entities recommended to the users and
+success is solely determined upon the end users reaction to the
+recommendation(s) received, in a Reciprocal Recommender System (RRS) users
+become the item being recommended to other users. Hence, both the end user and
+the user being recommended should accept the 'matching' recommendation to yield
+a successful RRS performance. The operation of an RRS entails not only
+predicting accurate preference estimates upon user interaction data as
+classical recommenders do, but also calculating mutual compatibility between
+(pairs of) users, typically by applying fusion processes on unilateral
+user-to-user preference information. This paper presents a snapshot-style
+analysis of the extant literature that summarizes the state-of-the-art RRS
+research to date, focusing on the algorithms, fusion processes and fundamental
+characteristics of RRS, both inherited from conventional user-to-item
+recommendation models and those inherent to this emerging family of approaches.
+Representative RRS models are likewise highlighted. Following this, we discuss
+the challenges and opportunities for future research on RRSs, with special
+focus on (i) fusion strategies to account for reciprocity and (ii) emerging
+application domains related to social recommendation.
+</abs>
+		</text>
+		<text id="arXiv:1601.02327">
+			<title>A Synthetic Approach for Recommendation: Combining Ratings, Social
+  Relations, and Reviews</title>
+			<hlight>&lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; (RSs) provide an effective...of alleviating the
+&lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt; problem by selecting...ignore some useful &lt;b class="match term0"&gt;information&lt;/b&gt;. In this
+paper</hlight>
+			<abs>  Recommender systems (RSs) provide an effective way of alleviating the
+information overload problem by selecting personalized choices. Online social
+networks and user-generated content provide diverse sources for recommendation
+beyond ratings, which present opportunities as well as challenges for
+traditional RSs. Although social matrix factorization (Social MF) can integrate
+ratings with social relations and topic matrix factorization can integrate
+ratings with item reviews, both of them ignore some useful information. In this
+paper, we investigate the effective data fusion by combining the two
+approaches, in two steps. First, we extend Social MF to exploit the graph
+structure of neighbors. Second, we propose a novel framework MR3 to jointly
+model these three types of information effectively for rating prediction by
+aligning latent factors and hidden topics. We achieve more accurate rating
+prediction on two real-life datasets. Furthermore, we measure the contribution
+of each data source to the proposed framework.
+</abs>
+		</text>
+		<text id="arXiv:2105.09981">
+			<title>A Load Balanced Recommendation Approach</title>
+			<hlight>&lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; (RSs) are software...the problem of &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt;, which makes it...Load Balanced &lt;b class="match term2"&gt;Recommender&lt;/b&gt;
+&lt;b class="match term2"&gt;System&lt;/b&gt; (LBRS), which uses a</hlight>
+			<abs>  Recommender systems (RSs) are software tools and algorithms developed to
+alleviate the problem of information overload, which makes it difficult for a
+user to make right decisions. Two main paradigms toward the recommendation
+problem are collaborative filtering and content-based filtering, which try to
+recommend the best items using ratings and content available. These methods
+typically face infamous problems including cold-start, diversity, scalability,
+and great computational expense. We argue that the uptake of deep learning and
+reinforcement learning methods is also questionable due to their computational
+complexities and uninterpretability. In this paper, we approach the
+recommendation problem from a new prospective. We borrow ideas from cluster
+head selection algorithms in wireless sensor networks and adapt them to the
+recommendation problem. In particular, we propose Load Balanced Recommender
+System (LBRS), which uses a probabilistic scheme for item recommendation.
+Furthermore, we factor in the importance of items in the recommendation
+process, which significantly improves the recommendation accuracy. We also
+introduce a method that considers a heterogeneity among items, in order to
+balance the similarity and diversity trade-off. Finally, we propose a new
+metric for diversity, which emphasizes the importance of diversity not only
+from an intra-list perspective, but also from a between-list point of view.
+With experiments in a simulation study performed on RecSim, we show that LBRS
+is effective and can outperform baseline methods.
+</abs>
+		</text>
+		<text id="arXiv:2105.14599">
+			<title>Personalization in E-Grocery: Top-N versus Top-k Rankings</title>
+			<hlight>for the shopper. &lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; (RS)
+enable businesses...to master &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt; (IO) by providing...requirement for &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; in e-grocery</hlight>
+			<abs>  Business success in e-commerce depends on customer perceived value. A
+customer with high perceived value buys, returns, and recommends items. The
+perceived value is at risk whenever the information load harms users' shopping
+experience. In e-grocery, shoppers face an overwhelming number of items, the
+majority of which is irrelevant for the shopper. Recommender systems (RS)
+enable businesses to master information overload (IO) by providing users with
+an item ranking by relevance. Prior work proposes RS with short personalized
+rankings (top-k). Given large order sizes and high user heterogeneity in
+e-grocery, top-k RS are insufficient to diminish IO in this domain. To fill
+this gap and raise business performance, this paper introduces an RS with a
+personalized long ranking (top-N). Undertaking a randomized field experiment,
+the paper establishes the merit of shifting from top-k to top-N rankings.
+Specifically, the proposed RS reduces IO by 29.4% and lowers users' search time
+by 3.3 seconds per item. The field experiment also reveals a 7% uplift in
+revenue due to the top-N ranking. Substantial benefits for the customer and the
+company highlight the business value of top-N rankings as a new design
+requirement for recommender systems in e-grocery.
+</abs>
+		</text>
+		<text id="arXiv:2011.03424">
+			<title>Session-aware Recommendation: A Surprising Quest for the
+  State-of-the-art</title>
+			<hlight>&lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; are designed to...in situations of &lt;b class="match term0"&gt;information&lt;/b&gt;
+&lt;b class="match term1"&gt;overload&lt;/b&gt;. In recent years...session-aware &lt;b class="match term4"&gt;recommendation&lt;/b&gt; algorithms</hlight>
+			<abs>  Recommender systems are designed to help users in situations of information
+overload. In recent years, we observed increased interest in session-based
+recommendation scenarios, where the problem is to make item suggestions to
+users based only on interactions observed in an ongoing session. However, in
+cases where interactions from previous user sessions are available, the
+recommendations can be personalized according to the users' long-term
+preferences, a process called session-aware recommendation. Today, research in
+this area is scattered and many existing works only compare session-aware with
+session-based models. This makes it challenging to understand what represents
+the state-of-the-art. To close this research gap, we benchmarked recent
+session-aware algorithms against each other and against a number of
+session-based recommendation algorithms and trivial extensions thereof. Our
+comparison, to some surprise, revealed that (i) item simple techniques based on
+nearest neighbors consistently outperform recent neural techniques and that
+(ii) session-aware models were mostly not better than approaches that do not
+use long-term preference information. Our work therefore not only points to
+potential methodological issues where new methods are compared to weak
+baselines, but also indicates that there remains a huge potential for more
+sophisticated session-aware recommendation algorithms.
+</abs>
+		</text>
+		<text id="arXiv:2204.01390">
+			<title>Automated Machine Learning for Deep Recommender Systems: A Survey</title>
+			<hlight>Deep &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; (DRS) are critical...address the issue of &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt; by
+&lt;b class="match term4"&gt;recommending&lt;/b&gt; items that...interactions, and &lt;b class="match term2"&gt;system&lt;/b&gt; design
+in DRS. Finally</hlight>
+			<abs>  Deep recommender systems (DRS) are critical for current commercial online
+service providers, which address the issue of information overload by
+recommending items that are tailored to the user's interests and preferences.
+They have unprecedented feature representations effectiveness and the capacity
+of modeling the non-linear relationships between users and items. Despite their
+advancements, DRS models, like other deep learning models, employ sophisticated
+neural network architectures and other vital components that are typically
+designed and tuned by human experts. This article will give a comprehensive
+summary of automated machine learning (AutoML) for developing DRS models. We
+first provide an overview of AutoML for DRS models and the related techniques.
+Then we discuss the state-of-the-art AutoML approaches that automate the
+feature selection, feature embeddings, feature interactions, and system design
+in DRS. Finally, we discuss appealing research directions and summarize the
+survey.
+</abs>
+		</text>
+		<text id="arXiv:2112.02787">
+			<title>Gumble Softmax For User Behavior Modeling</title>
+			<hlight>solving the
+&lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt; in many online...on an e-commerce &lt;b class="match term4"&gt;recommendation&lt;/b&gt;
+&lt;b class="match term2"&gt;system&lt;/b&gt;, the number of this...representations for &lt;b class="match term4"&gt;recommendation&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; (RDRSR). Specifically</hlight>
+			<abs>  Recently, sequential recommendation systems are important in solving the
+information overload in many online services. Current methods in sequential
+recommendation focus on learning a fixed number of representations for each
+user at any time, with a single representation or multi representations for the
+user. However, when a user is exploring items on an e-commerce recommendation
+system, the number of this user's hobbies may change overtime (e.g.
+increase/reduce one more interest), affected by the user's evolving self needs.
+Moreover, different users may have various number of interests. In this paper,
+we argue that it is meaningful to explore a personalized dynamic number of user
+interests, and learn a dynamic group of user interest representations
+accordingly. We propose a sequential model with dynamic number of
+representations for recommendation systems (RDRSR). Specifically, RDRSR is
+composed of a dynamic interest discriminator (DID) module and a dynamic
+interest allocator (DIA) module. The DID module explores the number of a user's
+interests by learning the overall sequential characteristics with
+bi-directional self-attention and Gumbel-Softmax. The DIA module make the
+historical clicked items into a group of item groups and constructs user's
+dynamic interest representation. Additionally, experiments on the real-world
+datasets demonstrates our model's effectiveness.
+</abs>
+		</text>
+		<text id="arXiv:2004.00646">
+			<title>A Survey on Conversational Recommender Systems</title>
+			<hlight>&lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; are software applications...in situations of &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt;. Current research...Conversational &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; (CRS) take a different</hlight>
+			<abs>  Recommender systems are software applications that help users to find items
+of interest in situations of information overload. Current research often
+assumes a one-shot interaction paradigm, where the users' preferences are
+estimated based on past observed behavior and where the presentation of a
+ranked list of suggestions is the main, one-directional form of user
+interaction. Conversational recommender systems (CRS) take a different approach
+and support a richer set of interactions. These interactions can, for example,
+help to improve the preference elicitation process or allow the user to ask
+questions about the recommendations and to give feedback. The interest in CRS
+has significantly increased in the past few years. This development is mainly
+due to the significant progress in the area of natural language processing, the
+emergence of new voice-controlled home assistants, and the increased use of
+chatbot technology. With this paper, we provide a detailed survey of existing
+approaches to conversational recommendation. We categorize these approaches in
+various dimensions, e.g., in terms of the supported user intents or the
+knowledge they use in the background. Moreover, we discuss technological
+approaches, review how CRS are evaluated, and finally identify a number of gaps
+that deserve more research in the future.
+</abs>
+		</text>
+		<text id="arXiv:1909.06627">
+			<title>Deep Collaborative Filtering with Multi-Aspect Information in
+  Heterogeneous Networks</title>
+			<hlight>Recently, &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; play a pivotal role...the problem
+of &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt;. Latent factor...and relations in
+&lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term2"&gt;system&lt;/b&gt; as a heterogeneous</hlight>
+			<abs>  Recently, recommender systems play a pivotal role in alleviating the problem
+of information overload. Latent factor models have been widely used for
+recommendation. Most existing latent factor models mainly utilize the
+interaction information between users and items, although some recently
+extended models utilize some auxiliary information to learn a unified latent
+factor for users and items. The unified latent factor only represents the
+characteristics of users and the properties of items from the aspect of
+purchase history. However, the characteristics of users and the properties of
+items may stem from different aspects, e.g., the brand-aspect and
+category-aspect of items. Moreover, the latent factor models usually use the
+shallow projection, which cannot capture the characteristics of users and items
+well. In this paper, we propose a Neural network based Aspect-level
+Collaborative Filtering model (NeuACF) to exploit different aspect latent
+factors. Through modelling the rich object properties and relations in
+recommender system as a heterogeneous information network, NeuACF first
+extracts different aspect-level similarity matrices of users and items
+respectively through different meta-paths, and then feeds an elaborately
+designed deep neural network with these matrices to learn aspect-level latent
+factors. Finally, the aspect-level latent factors are fused for the top-N
+recommendation. Moreover, to fuse information from different aspects more
+effectively, we further propose NeuACF++ to fuse aspect-level latent factors
+with self-attention mechanism. Extensive experiments on three real world
+datasets show that NeuACF and NeuACF++ significantly outperform both existing
+latent factor models and recent neural network models.
+</abs>
+		</text>
+		<text id="arXiv:2008.00202">
+			<title>Contextual Document Similarity for Content-based Literature Recommender
+  Systems</title>
+			<hlight>employ content-based &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt;. These &lt;b class="match term3"&gt;systems&lt;/b&gt;
+traditionally...will enhance &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt;. Namely, users will...and evaluation of a &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term2"&gt;system&lt;/b&gt; based on contextual</hlight>
+			<abs>  To cope with the ever-growing information overload, an increasing number of
+digital libraries employ content-based recommender systems. These systems
+traditionally recommend related documents with the help of similarity measures.
+However, current document similarity measures simply distinguish between
+similar and dissimilar documents. This simplification is especially crucial for
+extensive documents, which cover various facets of a topic and are often found
+in digital libraries. Still, these similarity measures neglect to what facet
+the similarity relates. Therefore, the context of the similarity remains
+ill-defined. In this doctoral thesis, we explore contextual document similarity
+measures, i.e., methods that determine document similarity as a triple of two
+documents and the context of their similarity. The context is here a further
+specification of the similarity. For example, in the scientific domain,
+research papers can be similar with respect to their background, methodology,
+or findings. The measurement of similarity in regards to one or more given
+contexts will enhance recommender systems. Namely, users will be able to
+explore document collections by formulating queries in terms of documents and
+their contextual similarities. Thus, our research objective is the development
+and evaluation of a recommender system based on contextual similarity. The
+underlying techniques will apply established similarity measures and as well as
+neural approaches while utilizing semantic features obtained from links between
+documents and their text.
+</abs>
+		</text>
+		<text id="arXiv:1107.4491">
+			<title>Enhancing topology adaptation in information-sharing social networks</title>
+			<hlight>usually face the &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt; by
+following a...model for social &lt;b class="match term4"&gt;recommendation&lt;/b&gt;. We show...are effective in &lt;b class="match term0"&gt;information&lt;/b&gt; diffusion</hlight>
+			<abs>  The advent of Internet and World Wide Web has led to unprecedent growth of
+the information available. People usually face the information overload by
+following a limited number of sources which best fit their interests. It has
+thus become important to address issues like who gets followed and how to allow
+people to discover new and better information sources. In this paper we conduct
+an empirical analysis on different on-line social networking sites, and draw
+inspiration from its results to present different source selection strategies
+in an adaptive model for social recommendation. We show that local search rules
+which enhance the typical topological features of real social communities give
+rise to network configurations that are globally optimal. These rules create
+networks which are effective in information diffusion and resemble structures
+resulting from real social systems.
+</abs>
+		</text>
+		<text id="arXiv:1902.04864">
+			<title>A Survey on Session-based Recommender Systems</title>
+			<hlight>&lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; (RSs) have been playing...making in the &lt;b class="match term3"&gt;overloaded&lt;/b&gt;
+&lt;b class="match term0"&gt;information&lt;/b&gt; era and digitized...years, session-based
+&lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; (SBRSs) have emerged</hlight>
+			<abs>  Recommender systems (RSs) have been playing an increasingly important role
+for informed consumption, services, and decision-making in the overloaded
+information era and digitized economy. In recent years, session-based
+recommender systems (SBRSs) have emerged as a new paradigm of RSs. Different
+from other RSs such as content-based RSs and collaborative filtering-based RSs
+which usually model long-term yet static user preferences, SBRSs aim to capture
+short-term but dynamic user preferences to provide more timely and accurate
+recommendations sensitive to the evolution of their session contexts. Although
+SBRSs have been intensively studied, neither unified problem statements for
+SBRSs nor in-depth elaboration of SBRS characteristics and challenges are
+available. It is also unclear to what extent SBRS challenges have been
+addressed and what the overall research landscape of SBRSs is. This
+comprehensive review of SBRSs addresses the above aspects by exploring in depth
+the SBRS entities (e.g., sessions), behaviours (e.g., users' clicks on items)
+and their properties (e.g., session length). We propose a general problem
+statement of SBRSs, summarize the diversified data characteristics and
+challenges of SBRSs, and define a taxonomy to categorize the representative
+SBRS research. Finally, we discuss new research opportunities in this exciting
+and vibrant area.
+</abs>
+		</text>
+		<text id="arXiv:1908.06967">
+			<title>Detection of Shilling Attack Based on T-distribution on the Dynamic Time
+  Intervals in Recommendation Systems</title>
+			<hlight>and the Internet,
+&lt;b class="match term4"&gt;recommendation&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; have become an important...solve the problem of
+&lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt;. However, &lt;b class="match term4"&gt;recommendation&lt;/b&gt; &lt;b class="match term2"&gt;system&lt;/b&gt; is greatly fragile...to manipulate the
+&lt;b class="match term4"&gt;recommendation&lt;/b&gt; results</hlight>
+			<abs>  With the development of information technology and the Internet,
+recommendation systems have become an important means to solve the problem of
+information overload. However, recommendation system is greatly fragile as it
+relies heavily on behavior data of users, which makes it very easy for a host
+of malicious merchants to inject shilling attacks in order to manipulate the
+recommendation results. Some papers on shilling attack have proposed the
+detection methods, whether based on false user profiles or abnormal items, but
+their detection rate, false alarm rate, universality, and time overhead need to
+be further improved. In this paper, we propose a new item anomaly detection
+method, through T-distribution technology based on Dynamic Time Intervals.
+First of all, based on the characteristics of shilling attack quickness
+(Attackers inject a large number of fake profiles in a short period in order to
+save costs), we use dynamic time interval method to divide the rating history
+of item into multiple time windows. Then, we use the T-distribution to detect
+the exception windows. By conducting extensive experiments on a dataset that
+accords with real-life situations and comparing it to currently outstanding
+methods, our proposed approach has a higher detection rate, lower false alarm
+rate and smaller time overhead to the different attack models and filler sizes.
+</abs>
+		</text>
+		<text id="arXiv:2107.01529">
+			<title>Learning Complex Users' Preferences for Recommender Systems</title>
+			<hlight>&lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; (RSs) have emerged...and alleviate
+the &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt; problem. There...lack of available
+&lt;b class="match term0"&gt;information&lt;/b&gt;) is one of the</hlight>
+			<abs>  Recommender systems (RSs) have emerged as very useful tools to help customers
+with their decision-making process, find items of their interest, and alleviate
+the information overload problem. There are two different lines of approaches
+in RSs: (1) general recommenders with the main goal of discovering long-term
+users' preferences, and (2) sequential recommenders with the main focus of
+capturing short-term users' preferences in a session of user-item interaction
+(here, a session refers to a record of purchasing multiple items in one
+shopping event). While considering short-term users' preferences may satisfy
+their current needs and interests, long-term users' preferences provide users
+with the items that they may interact with, eventually. In this thesis, we
+first focus on improving the performance of general RSs. Most of the existing
+general RSs tend to exploit the users' rating patterns on common items to
+detect similar users. The data sparsity problem (i.e. the lack of available
+information) is one of the major challenges for the current general RSs, and
+they may fail to have any recommendations when there are no common items of
+interest among users. We call this problem data sparsity with no feedback on
+common items (DSW-n-FCI). To overcome this problem, we propose a
+personality-based RS in which similar users are identified based on the
+similarity of their personality traits.
+</abs>
+		</text>
+		<text id="arXiv:2108.05669">
+			<title>Bursting Scientific Filter Bubbles: Boosting Innovation via Novel Author
+  Discovery</title>
+			<hlight>growing challenge of
+&lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt; limit awareness...describe Bridger, a &lt;b class="match term2"&gt;system&lt;/b&gt; for facilitating...for
+displaying &lt;b class="match term0"&gt;information&lt;/b&gt; about authors</hlight>
+			<abs>  Isolated silos of scientific research and the growing challenge of
+information overload limit awareness across the literature and hinder
+innovation. Algorithmic curation and recommendation, which often prioritize
+relevance, can further reinforce these informational "filter bubbles." In
+response, we describe Bridger, a system for facilitating discovery of scholars
+and their work. We construct a faceted representation of authors with
+information gleaned from their papers and inferred author personas, and use it
+to develop an approach that locates commonalities and contrasts between
+scientists to balance relevance and novelty. In studies with computer science
+researchers, this approach helps users discover authors considered useful for
+generating novel research directions. We also demonstrate an approach for
+displaying information about authors, boosting the ability to understand the
+work of new, unfamiliar scholars. Our analysis reveals that Bridger connects
+authors who have different citation profiles and publish in different venues,
+raising the prospect of bridging diverse scientific communities.
+</abs>
+		</text>
+		<text id="arXiv:1005.2308">
+			<title>Finding Your Literature Match -- A Recommender System</title>
+			<hlight>results. An &lt;b class="match term1"&gt;overload&lt;/b&gt; of
+&lt;b class="match term0"&gt;information&lt;/b&gt; has the intrinsic...is needed to &lt;b class="match term0"&gt;recommend&lt;/b&gt; items that a visitor...addition to any &lt;b class="match term0"&gt;information&lt;/b&gt; retrieval</hlight>
+			<abs>  The universe of potentially interesting, searchable literature is expanding
+continuously. Besides the normal expansion, there is an additional influx of
+literature because of interdisciplinary boundaries becoming more and more
+diffuse. Hence, the need for accurate, efficient and intelligent search tools
+is bigger than ever. Even with a sophisticated search engine, looking for
+information can still result in overwhelming results. An overload of
+information has the intrinsic danger of scaring visitors away, and any
+organization, for-profit or not-for-profit, in the business of providing
+scholarly information wants to capture and keep the attention of its target
+audience. Publishers and search engine engineers alike will benefit from a
+service that is able to provide visitors with recommendations that closely meet
+their interests. Providing visitors with special deals, new options and
+highlights may be interesting to a certain degree, but what makes more sense
+(especially from a commercial point of view) than to let visitors do most of
+the work by the mere action of making choices? Hiring psychics is not an
+option, so a technological solution is needed to recommend items that a visitor
+is likely to be looking for. In this presentation we will introduce such a
+solution and argue that it is practically feasible to incorporate this approach
+into a useful addition to any information retrieval system with enough usage.
+</abs>
+		</text>
+		<text id="arXiv:1711.07593">
+			<title>An Enhanced Middleware for Collaborative Privacy in IPTV Recommender
+  Services</title>
+			<hlight>when using IPTV &lt;b class="match term2"&gt;system&lt;/b&gt; is the
+&lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt; that makes it difficult...revealing any &lt;b class="match term0"&gt;information&lt;/b&gt; about their...can maintain the &lt;b class="match term0"&gt;recommendations&lt;/b&gt; accuracy</hlight>
+			<abs>  One of the concerns users have to confronted when using IPTV system is the
+information overload that makes it difficult for them to find a suitable
+content according to their personal preferences. Recommendation service is one
+of the most widely adopted technologies for alleviating this problem, these
+services intend to provide people with referrals of items they will appreciate
+based on their preferences. IPTV users must ensure their sensitive preferences
+collected by any recommendation service are properly secured. In this work, we
+introduce a framework for private recommender service based on Enhanced
+Middleware for Collaborative Privacy (EMCP). EMCP executes a two-stage
+concealment process that gives the user a complete control on the privacy level
+of his/her profile. We utilize trust mechanism to augment the accuracy and
+privacy of the recommendations. Trust heuristic spot users who are trustworthy
+with respect to the user requesting the recommendation. Later, the neighborhood
+formation is calculated using proximity metrics based on these trustworthy
+users. Finally, Users submit their profiles in an obfuscated form without
+revealing any information about their data, and the computation of
+recommendations proceeds over the obfuscated data using secure multiparty
+computation protocol. We expand the obfuscation scope from single obfuscation
+level for all users to arbitrary obfuscation levels based on trustworthy
+between users. In other words, we correlate the obfuscation level with
+different trust levels, so the more trusted a target user is the less
+obfuscation copy of profile he can access. We also provide an IPTV network
+scenario and experimentation results. Our results and analysis show that our
+two-stage concealment process not only protects the privacy of users but also
+can maintain the recommendations accuracy.
+</abs>
+		</text>
+		<text id="arXiv:1910.12781">
+			<title>Empirical Analysis of Session-Based Recommendation Algorithms</title>
+			<hlight>&lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; are tools that support...in situations of &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt;. In recent
+years...indicate that &lt;b class="match term0"&gt;recommendations&lt;/b&gt; based</hlight>
+			<abs>  Recommender systems are tools that support online users by pointing them to
+potential items of interest in situations of information overload. In recent
+years, the class of session-based recommendation algorithms received more
+attention in the research literature. These algorithms base their
+recommendations solely on the observed interactions with the user in an ongoing
+session and do not require the existence of long-term preference profiles. Most
+recently, a number of deep learning based ("neural") approaches to
+session-based recommendations were proposed. However, previous research
+indicates that today's complex neural recommendation methods are not always
+better than comparably simple algorithms in terms of prediction accuracy.
+  With this work, our goal is to shed light on the state-of-the-art in the area
+of session-based recommendation and on the progress that is made with neural
+approaches. For this purpose, we compare twelve algorithmic approaches, among
+them six recent neural methods, under identical conditions on various datasets.
+We find that the progress in terms of prediction accuracy that is achieved with
+neural methods is still limited. In most cases, our experiments show that
+simple heuristic methods based on nearest-neighbors schemes are preferable over
+conceptually and computationally more complex methods. Observations from a user
+study furthermore indicate that recommendations based on heuristic methods were
+also well accepted by the study participants. To support future progress and
+reproducibility in this area, we publicly share the session-rec evaluation
+framework that was used in our research.
+</abs>
+		</text>
+		<text id="arXiv:2106.04415">
+			<title>Exploring Periodicity and Interactivity in Multi-Interest Framework for
+  Sequential Recommendation</title>
+			<hlight>Sequential &lt;b class="match term4"&gt;recommendation&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; alleviate the problem...of &lt;b class="match term0"&gt;information&lt;/b&gt;
+&lt;b class="match term1"&gt;overload&lt;/b&gt;, and have attracted...the time interval
+&lt;b class="match term0"&gt;information&lt;/b&gt; between user</hlight>
+			<abs>  Sequential recommendation systems alleviate the problem of information
+overload, and have attracted increasing attention in the literature. Most prior
+works usually obtain an overall representation based on the user's behavior
+sequence, which can not sufficiently reflect the multiple interests of the
+user. To this end, we propose a novel method called PIMI to mitigate this
+issue. PIMI can model the user's multi-interest representation effectively by
+considering both the periodicity and interactivity in the item sequence.
+Specifically, we design a periodicity-aware module to utilize the time interval
+information between user's behaviors. Meanwhile, an ingenious graph is proposed
+to enhance the interactivity between items in user's behavior sequence, which
+can capture both global and local item features. Finally, a multi-interest
+extraction module is applied to describe user's multiple interests based on the
+obtained item representation. Extensive experiments on two real-world datasets
+Amazon and Taobao show that PIMI outperforms state-of-the-art methods
+consistently.
+</abs>
+		</text>
+		<text id="arXiv:1803.09551">
+			<title>Collaborative Filtering with Topic and Social Latent Factors
+  Incorporating Implicit Feedback</title>
+			<hlight>&lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; (RSs) provide an effective...of alleviating the
+&lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt; problem by selecting...ignore some useful &lt;b class="match term0"&gt;information&lt;/b&gt;. In
+this paper</hlight>
+			<abs>  Recommender systems (RSs) provide an effective way of alleviating the
+information overload problem by selecting personalized items for different
+users. Latent factors based collaborative filtering (CF) has become the popular
+approaches for RSs due to its accuracy and scalability. Recently, online social
+networks and user-generated content provide diverse sources for recommendation
+beyond ratings. Although {\em social matrix factorization} (Social MF) and {\em
+topic matrix factorization} (Topic MF) successfully exploit social relations
+and item reviews, respectively, both of them ignore some useful information. In
+this paper, we investigate the effective data fusion by combining the
+aforementioned approaches. First, we propose a novel model {\em \mbox{MR3}} to
+jointly model three sources of information (i.e., ratings, item reviews, and
+social relations) effectively for rating prediction by aligning the latent
+factors and hidden topics. Second, we incorporate the implicit feedback from
+ratings into the proposed model to enhance its capability and to demonstrate
+its flexibility. We achieve more accurate rating prediction on real-life
+datasets over various state-of-the-art methods. Furthermore, we measure the
+contribution from each of the three data sources and the impact of implicit
+feedback from ratings, followed by the sensitivity analysis of hyperparameters.
+Empirical studies demonstrate the effectiveness and efficacy of our proposed
+model and its extension.
+</abs>
+		</text>
+		<text id="arXiv:2104.00919">
+			<title>Fast-adapting and Privacy-preserving Federated Recommender System</title>
+			<hlight>thus alleviating
+the &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt; problem. Recent...network (DNN)-based
+&lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term2"&gt;system&lt;/b&gt; research have made...to develop a &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term2"&gt;system&lt;/b&gt; that can achieve</hlight>
+			<abs>  In the mobile Internet era, the recommender system has become an
+irreplaceable tool to help users discover useful items, and thus alleviating
+the information overload problem. Recent deep neural network (DNN)-based
+recommender system research have made significant progress in improving
+prediction accuracy, which is largely attributed to the access to a large
+amount of users' personal data collected from users' devices and then centrally
+stored in the cloud server. However, as there are rising concerns around the
+globe on user privacy leakage in the online platform, the public is becoming
+anxious by such abuse of user privacy. Therefore, it is urgent and beneficial
+to develop a recommender system that can achieve both high prediction accuracy
+and high degree of user privacy protection.
+  To this end, we propose a DNN-based recommendation model called PrivRec
+running on the decentralized federated learning (FL) environment, which ensures
+that a user's data never leaves his/her during the course of model training. On
+the other hand, to better embrace the data heterogeneity commonly existing in
+FL, we innovatively introduce a first-order meta-learning method that enables
+fast in-device personalization with only few data points. Furthermore, to
+defense from potential malicious participant that poses serious security threat
+to other users, we develop a user-level differentially private DP-PrivRec model
+so that it is unable to determine whether a particular user is present or not
+solely based on the trained model. Finally, we conduct extensive experiments on
+two large-scale datasets in a simulated FL environment, and the results
+validate the superiority of our proposed PrivRec and DP-PrivRec.
+</abs>
+		</text>
+		<text id="arXiv:2101.03394">
+			<title>Context-Aware Target Apps Selection and Recommendation for Enhancing
+  Personal Mobile Assistants</title>
+			<hlight>issues related to
+&lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt; for users and resource...mobile search &lt;b class="match term2"&gt;system&lt;/b&gt;: a &lt;b class="match term2"&gt;system&lt;/b&gt; that addresses the...the rich contextual
+&lt;b class="match term0"&gt;information&lt;/b&gt; available</hlight>
+			<abs>  Users install many apps on their smartphones, raising issues related to
+information overload for users and resource management for devices. Moreover,
+the recent increase in the use of personal assistants has made mobile devices
+even more pervasive in users' lives. This paper addresses two research problems
+that are vital for developing effective personal mobile assistants: target apps
+selection and recommendation. The former is the key component of a unified
+mobile search system: a system that addresses the users' information needs for
+all the apps installed on their devices with a unified mode of access. The
+latter, instead, predicts the next apps that the users would want to launch.
+Here we focus on context-aware models to leverage the rich contextual
+information available to mobile devices. We design an in situ study to collect
+thousands of mobile queries enriched with mobile sensor data (now publicly
+available for research purposes). With the aid of this dataset, we study the
+user behavior in the context of these tasks and propose a family of
+context-aware neural models that take into account the sequential, temporal,
+and personal behavior of users. We study several state-of-the-art models and
+show that the proposed models significantly outperform the baselines.
+</abs>
+		</text>
+		<text id="arXiv:2102.12057">
+			<title>Revisit Recommender System in the Permutation Prospective</title>
+			<hlight>&lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; (RS) work effective...at alleviating &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt;
+and matching user...in one popular &lt;b class="match term4"&gt;recommendation&lt;/b&gt; scenario</hlight>
+			<abs>  Recommender systems (RS) work effective at alleviating information overload
+and matching user interests in various web-scale applications. Most RS retrieve
+the user's favorite candidates and then rank them by the rating scores in the
+greedy manner. In the permutation prospective, however, current RS come to
+reveal the following two limitations: 1) They neglect addressing the
+permutation-variant influence within the recommended results; 2) Permutation
+consideration extends the latent solution space exponentially, and current RS
+lack the ability to evaluate the permutations. Both drive RS away from the
+permutation-optimal recommended results and better user experience. To
+approximate the permutation-optimal recommended results effectively and
+efficiently, we propose a novel permutation-wise framework PRS in the
+re-ranking stage of RS, which consists of Permutation-Matching (PMatch) and
+Permutation-Ranking (PRank) stages successively. Specifically, the PMatch stage
+is designed to obtain the candidate list set, where we propose the FPSA
+algorithm to generate multiple candidate lists via the permutation-wise and
+goal-oriented beam search algorithm. Afterwards, for the candidate list set,
+the PRank stage provides a unified permutation-wise ranking criterion named LR
+metric, which is calculated by the rating scores of elaborately designed
+permutation-wise model DPWN. Finally, the list with the highest LR score is
+recommended to the user. Empirical results show that PRS consistently and
+significantly outperforms state-of-the-art methods. Moreover, PRS has achieved
+a performance improvement of 11.0% on PV metric and 8.7% on IPV metric after
+the successful deployment in one popular recommendation scenario of Taobao
+application.
+</abs>
+		</text>
+		<text id="arXiv:2103.06109">
+			<title>Session-based Social and Dependency-aware Software Recommendation</title>
+			<hlight>to the challenge of &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt;. While this can...by conventional &lt;b class="match term4"&gt;recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt;, they usually do...aware software &lt;b class="match term0"&gt;Recommendation&lt;/b&gt; (SSDRec</hlight>
+			<abs>  With the increase of complexity of modern software, social collaborative
+coding and reuse of open source software packages become more and more popular,
+which thus greatly enhances the development efficiency and software quality.
+However, the explosive growth of open source software packages exposes
+developers to the challenge of information overload. While this can be
+addressed by conventional recommender systems, they usually do not consider
+particular constraints of social coding such as social influence among
+developers and dependency relations among software packages. In this paper, we
+aim to model the dynamic interests of developers with both social influence and
+dependency constraints, and propose the Session-based Social and
+Dependency-aware software Recommendation (SSDRec) model. This model integrates
+recurrent neural network (RNN) and graph attention network (GAT) into a unified
+framework. An RNN is employed to model the short-term dynamic interests of
+developers in each session and two GATs are utilized to capture social
+influence from friends and dependency constraints from dependent software
+packages, respectively. Extensive experiments are conducted on real-world
+datasets and the results demonstrate that our model significantly outperforms
+the competitive baselines.
+</abs>
+		</text>
+		<text id="arXiv:2111.05578">
+			<title>Conversational Recommendation: Theoretical Model and Complexity Analysis</title>
+			<hlight>&lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; are software applications...in situations of &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt; in a personalized...of conversational &lt;b class="match term4"&gt;recommendation&lt;/b&gt;. This
+model</hlight>
+			<abs>  Recommender systems are software applications that help users find items of
+interest in situations of information overload in a personalized way, using
+knowledge about the needs and preferences of individual users. In
+conversational recommendation approaches, these needs and preferences are
+acquired by the system in an interactive, multi-turn dialog. A common approach
+in the literature to drive such dialogs is to incrementally ask users about
+their preferences regarding desired and undesired item features or regarding
+individual items. A central research goal in this context is efficiency,
+evaluated with respect to the number of required interactions until a
+satisfying item is found. This is usually accomplished by making inferences
+about the best next question to ask to the user. Today, research on dialog
+efficiency is almost entirely empirical, aiming to demonstrate, for example,
+that one strategy for selecting questions is better than another one in a given
+application. With this work, we complement empirical research with a
+theoretical, domain-independent model of conversational recommendation. This
+model, which is designed to cover a range of application scenarios, allows us
+to investigate the efficiency of conversational approaches in a formal way, in
+particular with respect to the computational complexity of devising optimal
+interaction strategies. Through such a theoretical analysis we show that
+finding an efficient conversational strategy is NP-hard, and in PSPACE in
+general, but for particular kinds of catalogs the upper bound lowers to
+POLYLOGSPACE. From a practical point of view, this result implies that catalog
+characteristics can strongly influence the efficiency of individual
+conversational strategies and should therefore be considered when designing new
+strategies. A preliminary empirical analysis on datasets derived from a
+real-world one aligns with our findings.
+</abs>
+		</text>
+		<text id="arXiv:1406.3277">
+			<title>A Semantic VSM-Based Recommender System</title>
+			<hlight>discussions and
+thus &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt; problem. Unfortunately...traditional &lt;b class="match term3"&gt;Information&lt;/b&gt; Retrieval...employment of a &lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term2"&gt;System&lt;/b&gt; (RS) that
+could suggest</hlight>
+			<abs>  Online forums enable users to discuss together around various topics. One of
+the serious problems of these environments is high volume of discussions and
+thus information overload problem. Unfortunately without considering the users
+interests, traditional Information Retrieval (IR) techniques are not able to
+solve the problem. Therefore, employment of a Recommender System (RS) that
+could suggest favorite's topics of users according to their tastes could
+increases the dynamism of forum and prevent the users from duplicate posts. In
+addition, consideration of semantics can be useful for increasing the
+performance of IR based RS. Our goal is study of impact of ontology and data
+mining techniques on improving of content-based RS. For this purpose, at first,
+three type of ontologies will be constructed from the domain corpus with
+utilization of text mining, Natural Language Processing (NLP) and Wordnet and
+then they will be used as an input in two kind of RS: one, fully ontology-based
+and one with enriching the user profile vector with ontology in vector space
+model (VSM) (proposed method). Afterward the results will be compared with the
+simple VSM based RS. Given results show that the proposed RS presents the
+highest performance.
+</abs>
+		</text>
+		<text id="arXiv:1912.11720">
+			<title>Convolutional Quantum-Like Language Model with Mutual-Attention for
+  Product Rating Prediction</title>
+			<hlight>&lt;b class="match term2"&gt;Recommender&lt;/b&gt; &lt;b class="match term3"&gt;systems&lt;/b&gt; are designed to...mitigate &lt;b class="match term0"&gt;information&lt;/b&gt; &lt;b class="match term1"&gt;overload&lt;/b&gt; users
+experience...capture meaningful &lt;b class="match term0"&gt;information&lt;/b&gt; about this</hlight>
+			<abs>  Recommender systems are designed to help mitigate information overload users
+experience during online shopping. Recent work explores neural language models
+to learn user and item representations from user reviews and combines such
+representations with rating information. Most existing convolutional-based
+neural models take pooling immediately after convolution and loses the
+interaction information between the latent dimension of convolutional feature
+vectors along the way. Moreover, these models usually take all feature vectors
+at higher levels as equal and do not take into consideration that some features
+are more relevant to this specific user-item context. To bridge these gaps,
+this paper proposes a convolutional quantum-like language model with
+mutual-attention for rating prediction (ConQAR). By introducing a quantum-like
+density matrix layer, interactions between latent dimensions of convolutional
+feature vectors are well captured. With the attention weights learned from the
+mutual-attention layer, final representations of a user and an item absorb
+information from both itself and its counterparts for making rating prediction.
+Experiments on two large datasets show that our model outperforms multiple
+state-of-the-art CNN-based models. We also perform an ablation test to analyze
+the independent effects of the two components of our model. Moreover, we
+conduct a case study and present visualizations of the quantum probabilistic
+distributions in one user and one item review document to show that the learned
+distributions capture meaningful information about this user and item, and can
+be potentially used as textual profiling of the user and item.
+</abs>
+		</text>
+		<text id="arXiv:1907.12365">
+			<title>Collaborative Filtering and Multi-Label Classification with Matrix
+  Factorization</title>
+			<hlight>techniques for &lt;b class="match term0"&gt;Recommendation&lt;/b&gt; &lt;b class="match term2"&gt;System&lt;/b&gt; (RS) and Classification...the problem of &lt;b class="match term0"&gt;information&lt;/b&gt;
+&lt;b class="match term1"&gt;overload&lt;/b&gt;. RS are software...with the group
+&lt;b class="match term0"&gt;information&lt;/b&gt; with an objective</hlight>
+			<abs>  Machine learning techniques for Recommendation System (RS) and Classification
+has become a prime focus of research to tackle the problem of information
+overload. RS are software tools that aim at making informed decisions about the
+services that a user may like. On the other hand, classification technique
+deals with the categorization of a data object into one of the several
+predefined classes. In the multi-label classification problem, unlike the
+traditional multi-class classification setting, each instance can be
+simultaneously associated with a subset of labels. The focus of thesis is on
+the development of novel techniques for collaborative filtering and multi-label
+classification.
+  We propose a novel method of constructing a hierarchical bi-level maximum
+margin matrix factorization to handle matrix completion of ordinal rating
+matrix. Taking the cue from the alternative formulation of support vector
+machines, a novel loss function is derived by considering proximity as an
+alternative criterion instead of margin maximization criterion for matrix
+factorization framework.
+  We extended the concept of matrix factorization for yet another important
+problem of machine learning namely multi-label classification which deals with
+the classification of data with multiple labels. We propose a novel
+piecewise-linear embedding method with a low-rank constraint on parametrization
+to capture nonlinear intrinsic relationships that exist in the original feature
+and label space. We also study the embedding of labels together with the group
+information with an objective to build an efficient multi-label classifier. We
+assume the existence of a low-dimensional space onto which the feature vectors
+and label vectors can be embedded. We ensure that labels belonging to the same
+group share the same sparsity pattern in their low-rank representations.
+</abs>
+		</text>
+	</triple>
+</triples>
