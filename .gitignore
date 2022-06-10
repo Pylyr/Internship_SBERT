@@ -3,13 +3,16 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Mac files
+.DS_Store
+
 # C extensions
 *.so
 
 # Distribution / packaging
 .Python
 build/
-develop-eggs/`
+develop-eggs/
 dist/
 downloads/
 eggs/
