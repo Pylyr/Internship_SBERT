@@ -113,12 +113,13 @@ class XMLHandler(ContentHandler):
                     best_pair = [start, end]
 
             # extract the sentences in text from best_pair[0] to best_pair[1]
-            block = ' '.join(sents[best_pair[0]:best_pair[1]])
+            block = ' '.join(sents[best_pair[0]:best_pair[1] + 1])
 
             if len(block) > 512:
-                block = "!!! Sentence too large !!!"
-            processed_blocks.append(block)
+                # block = "!!! Sentence too large !!!"
+                continue
 
+            processed_blocks.append(block)
         for block in processed_blocks:
             for rel in self.currel:
                 self.file.write(f"{wordA},{wordB},{rel},\"{block}\"\n")
