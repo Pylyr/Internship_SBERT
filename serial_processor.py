@@ -1,8 +1,15 @@
-from spacy import load
+from spacy.lang.en import English
 from xml.sax import parse
 from xml.sax.handler import ContentHandler
 import re
-from typing import List
+import time
+
+
+nlp = English()
+nlp.add_pipe("sentencizer")
+
+
+t0 = time.time()
 
 
 class XMLHandler(ContentHandler):
@@ -37,7 +44,6 @@ class XMLHandler(ContentHandler):
 
     def textProcessing(self):
         wordA, wordB = self.curwords
-
         # some preprocessing
         wordA = wordA.replace("_", " ")
         wordB = wordB.replace("_", " ")
@@ -51,7 +57,6 @@ class XMLHandler(ContentHandler):
 
         block = ""
         sentence_counter = 0
-        nlp = load("en_core_web_sm")
         doc = nlp(self.text)
 
         sents = [sent.text.strip() for sent in doc.sents]
@@ -114,3 +119,6 @@ file.write("Word A, Relation, Word B, Sentence\n")
 
 handler = XMLHandler(file)
 parse("./data/test1000.xml", handler)
+
+t1 = time.time()
+print(t1-t0)

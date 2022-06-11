@@ -6,7 +6,7 @@ __pycache__/
 # Archived (large) files
 *.tar.gz
 res*.xml
-processed.csv
+processed*.csv
 
 # Mac files
 .DS_Store
