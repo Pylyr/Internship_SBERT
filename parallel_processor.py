@@ -1,4 +1,3 @@
-# Keep all the text is RAM
 # Run sentence tokenization in parallel
 
 from spacy.lang.en import English
@@ -10,8 +9,6 @@ import time
 
 nlp = English()
 nlp.add_pipe("sentencizer")
-
-
 t0 = time.time()
 
 
@@ -52,6 +49,7 @@ class XMLHandler(ContentHandler):
             self.textc += 1
 
     def textProcessing(self):
+        global t0
         wordA, wordB = self.curwords
         wordA = wordA.replace("_", " ")
         wordB = wordB.replace("_", " ")
@@ -72,10 +70,10 @@ class XMLHandler(ContentHandler):
             block = ""
 
             for sent in sents:
-                if re.search(wordA, sent, re.IGNORECASE):
+                if wordA in sent.casefold():
                     sentA.append(sent)
                     sentAn.append(sentence_counter)
-                if re.search(wordB, sent, re.IGNORECASE):
+                if wordB in sent.casefold():
                     sentB.append(sent)
                     sentBn.append(sentence_counter)
                 sentence_counter += 1
@@ -83,6 +81,7 @@ class XMLHandler(ContentHandler):
             # if no sentences are found, return
             if len(sentA) == 0 or len(sentB) == 0:
                 continue
+
             # Find the first common sentence between sentA and sentB
             for c in sentAn:
                 if c in sentBn:
@@ -122,14 +121,18 @@ class XMLHandler(ContentHandler):
             processed_blocks.append(block)
         for block in processed_blocks:
             for rel in self.currel:
+                # if there are double quotes in block, replace them with single quotes
+                if '"' in block:
+                    block = block.replace('"', "'")
                 self.file.write(f"{wordA},{wordB},{rel},\"{block}\"\n")
+
+        t1 = time.time()
+        print(f"Wrote {len(processed_blocks) * len(self.currel)} lines in {t1 - t0} seconds")
+        t0 = t1
 
 
 file = open("./data/processed.csv", "w")
 file.write("Word A, Relation, Word B, Sentence\n")
 
 handler = XMLHandler(file)
-parse("./data/test1000.xml", handler)
-
-t1 = time.time()
-print(t1-t0)
+parse("./data/test3.xml", handler)
