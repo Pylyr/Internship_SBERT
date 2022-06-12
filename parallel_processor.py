@@ -5,11 +5,7 @@ from xml.sax import parse
 from xml.sax.handler import ContentHandler
 import re
 import time
-
-
-nlp = English()
-nlp.add_pipe("sentencizer")
-t0 = time.time()
+import tqdm
 
 
 class XMLHandler(ContentHandler):
@@ -126,13 +122,27 @@ class XMLHandler(ContentHandler):
                     block = block.replace('"', "'")
                 self.file.write(f"{wordA},{wordB},{rel},\"{block}\"\n")
 
-        t1 = time.time()
-        print(f"Wrote {len(processed_blocks) * len(self.currel)} lines in {t1 - t0} seconds")
-        t0 = t1
+        # t1 = time.time()
+        # print(f"Wrote {len(processed_blocks) * len(self.currel)} lines in {t1 - t0} seconds")
+        # t0 = t1
+        pbar.update(n=1)
 
+
+FILE = "./data/res1.xml"
+LENGTH = 5000
+# with open(FILE, 'r') as f:
+#     LENGTH = len(re.findall(r'</triple>', f.read()))
+
+nlp = English()
+nlp.add_pipe("sentencizer")
+t0 = time.time()
 
 file = open("./data/processed.csv", "w")
 file.write("Word A, Relation, Word B, Sentence\n")
 
 handler = XMLHandler(file)
-parse("./data/test3.xml", handler)
+
+
+pbar = tqdm.tqdm(total=LENGTH)
+
+parse(FILE, handler)

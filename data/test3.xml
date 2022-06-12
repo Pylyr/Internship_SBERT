@@ -5,7 +5,7 @@
 			<r order="true">methodUsedBy</r>
 			<r order="true">supportsTask</r>
 		</rels>
-		<text id="arXiv:cs/0101012" id="knowledge sharing">
+		<text id="arXiv:cs/0101012" demo="knowledge sharing">
 			<title>Communities of Practice in the Distributed International Environment</title>
 			<hlight>&lt;b class="match term0"&gt;Knowledge&lt;/b&gt;
 Management (&lt;b class="match term1"&gt;KM&lt;/b&gt;) claims to tackle these...that is, the &lt;b class="match term2"&gt;sharing&lt;/b&gt; of &lt;b class="match term3"&gt;knowledge&lt;/b&gt;
