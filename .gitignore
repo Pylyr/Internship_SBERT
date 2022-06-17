@@ -9,6 +9,7 @@ res*.xml
 *-*.csv
 merged
 *.npy
+processed*.csv
 
 # Mac files
 .DS_Store
