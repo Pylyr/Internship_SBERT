@@ -1,14 +1,22 @@
-from spacy import load
+from spacy.lang.en import English
 from xml.sax import parse
 from xml.sax.handler import ContentHandler
 import re
-from typing import List
+import time
+import os
+
+
+nlp = English()
+nlp.add_pipe("sentencizer")
+
+
+t0 = time.time()
 
 
 class XMLHandler(ContentHandler):
-    def __init__(self, oFile):
+    def __init__(self, output_file):
         super().__init__()
-        self.file = oFile  # output file
+        self.file = output_file  # output file
         self.curcmd = None  # current command
         self.currel = []  # current relations
         self.curwords = []  # current keywords
@@ -37,7 +45,6 @@ class XMLHandler(ContentHandler):
 
     def textProcessing(self):
         wordA, wordB = self.curwords
-
         # some preprocessing
         wordA = wordA.replace("_", " ")
         wordB = wordB.replace("_", " ")
@@ -51,7 +58,6 @@ class XMLHandler(ContentHandler):
 
         block = ""
         sentence_counter = 0
-        nlp = load("en_core_web_sm")
         doc = nlp(self.text)
 
         sents = [sent.text.strip() for sent in doc.sents]
@@ -108,9 +114,23 @@ class XMLHandler(ContentHandler):
             for rel in self.currel:
                 self.file.write(f"{wordA},{wordB},{rel},\"{block}\"\n")
 
+# list all paths to files in a folder ./files
+for file in os.listdir("./files"):
+    print(file)
 
-file = open("./data/processed.csv", "w")
-file.write("Word A, Relation, Word B, Sentence\n")
+# for filepath in filepath_list :
 
-handler = XMLHandler(file)
-parse("./data/test1000.xml", handler)
+#     # filepath = "./data/test1000.xml"
+
+#     # get the folder of filepath
+#     dir = os.path.dirname(os.path.realpath(filepath))
+#     # get the base name of filepath without the extension
+#     base = os.path.basename(filepath).split('.')[0]
+
+#     os.chdir(dir)
+#     file = open(f"{base}.csv", "w")
+
+#     file.write("Word A, Relation, Word B, Sentence\n")
+
+#     handler = XMLHandler(output_file=file)
+#     parse(filepath, handler)

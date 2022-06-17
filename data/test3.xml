@@ -1,0 +1,273 @@
+<triple e1="km" e2="knowledge_sharing" count="11">
+		<rels>
+			<r order="true">taskSupportedBy</r>
+			<r order="true">usesMethod</r>
+			<r order="true">methodUsedBy</r>
+			<r order="true">supportsTask</r>
+		</rels>
+		<text id="arXiv:cs/0101012" demo="knowledge sharing">
+			<title>Communities of Practice in the Distributed International Environment</title>
+			<hlight>&lt;b class="match term0"&gt;Knowledge&lt;/b&gt;
+Management (&lt;b class="match term1"&gt;KM&lt;/b&gt;) claims to tackle these...that is, the &lt;b class="match term2"&gt;sharing&lt;/b&gt; of &lt;b class="match term3"&gt;knowledge&lt;/b&gt;
+that is not easy...do this by exploring &lt;b class="match term3"&gt;knowledge&lt;/b&gt; &lt;b class="match term2"&gt;sharing&lt;/b&gt; in Lave and Wenger</hlight>
+			<abs>  Modern commercial organisations are facing pressures which have caused them
+to lose personnel. When they lose people, they also lose their knowledge.
+Organisations also have to cope with the internationalisation of business
+forcing collaboration and knowledge sharing across time and distance. Knowledge
+Management (KM) claims to tackle these issues. This paper looks at an area
+where KM does not offer sufficient support, that is, the sharing of knowledge
+that is not easy to articulate.
+  The focus in this paper is on Communities of Practice in commercial
+organisations. We do this by exploring knowledge sharing in Lave and Wenger's
+[1] theory of Communities of Practice and investigating how Communities of
+Practice may translate to a distributed international environment. The paper
+reports on two case studies that explore the functioning of Communities of
+Practice across international boundaries.
+</abs>
+		</text>
+		<text id="arXiv:1202.6104">
+			<title>On the Convergence of Collaboration and Knowledge Management</title>
+			<hlight>and coproduction).
+&lt;b class="match term0"&gt;Knowledge&lt;/b&gt; Management (&lt;b class="match term1"&gt;KM&lt;/b&gt;) technology typically...need both &lt;b class="match term1"&gt;KM&lt;/b&gt; and collaboration
+technology...understanding of the &lt;b class="match term3"&gt;knowledge&lt;/b&gt;
+management and</hlight>
+			<abs>  Collaboration technology typically focuses on collaboration and group
+processes (cooperation, communication, coordination and coproduction).
+Knowledge Management (KM) technology typically focuses on content (creation,
+storage, sharing and use of data, information and knowledge). Yet, to achieve
+their common goals, teams and organizations need both KM and collaboration
+technology to make that more effective and efficient. This paper is interested
+in knowledge management and collaboration regarding their convergence and their
+integration. First, it contributes to a better understanding of the knowledge
+management and collaboration concepts. Second, it focuses on KM and
+collaboration convergence by presenting the different interpretation of this
+convergence. Third, this paper proposes a generic framework of collaborative
+knowledge management.
+</abs>
+		</text>
+		<text id="arXiv:1504.02017">
+			<title>Software Development Industry In East Africa: Knowledge Management
+  Perspective And Value Proposition</title>
+			<hlight>existence of formal &lt;b class="match term1"&gt;KM&lt;/b&gt; (&lt;b class="match term0"&gt;Knowledge&lt;/b&gt; Management) initiatives...and establishment of &lt;b class="match term3"&gt;knowledge&lt;/b&gt;
+taxonomies in...&lt;b class="match term2"&gt;sharing&lt;/b&gt; processes;
+incubation and Mentorship; collaborative</hlight>
+			<abs>  Increased usage of the internet has contributed immensely to the growth of
+software development practice in East Africa. This paper investigates the
+existence of formal KM (Knowledge Management) initiatives in the Software
+industry such as creation of virtual communities (Communities of practice and
+communities of interest); expert localization and establishment of knowledge
+taxonomies in these communities; the knowledge transfer and sharing processes;
+incubation and Mentorship; collaborative software development and their role in
+creating entrepreneurship initiatives and providing a building block towards
+the knowledge economies. We propose a hybrid framework for use in KM initiative
+focusing on Software Development in East Africa.
+</abs>
+		</text>
+		<text id="arXiv:1109.0614">
+			<title>Framework to Integrate Business Intelligence and Knowledge Management in
+  Banking Industry</title>
+			<hlight>On
+the other hand, &lt;b class="match term0"&gt;Knowledge&lt;/b&gt; Management (&lt;b class="match term1"&gt;KM&lt;/b&gt;) will enhance the organisations...to learn, create and &lt;b class="match term4"&gt;share&lt;/b&gt; the
+&lt;b class="match term3"&gt;knowledge&lt;/b&gt; among the employees...needed to integrate &lt;b class="match term1"&gt;KM&lt;/b&gt; with &lt;b class="match term0"&gt;Knowledge&lt;/b&gt;
+which is discovered</hlight>
+			<abs>  In this digital age organizations depend upon the technologies to provide
+customer-centric solutions by understanding well about their customers'
+behaviour and continuously improving business process of the organization.
+Business intelligence (BI) applications will play a vital role at this stage by
+discovering the knowledge hidden in internal as well as external sources. On
+the other hand, Knowledge Management (KM) will enhance the organisations
+performance by providing collaborative tools to learn, create and share the
+knowledge among the employees. The main intention of the BI is to enhance the
+employees' knowledge with information that allows them to make decisions to
+achieve its organisational strategies. However only twenty percent of data
+exist in structured form, majority of banks knowledge is in unstructured or
+minds of its employees. Organizations are needed to integrate KM with Knowledge
+which is discovered from data and information. The purpose of this paper is to
+discuss the need of business insiders in the process of knowledge discovery and
+distribution, to make BI more relevant to business of the bank. We have also
+discussed about the BI/KM applications in banking industry and provided a
+framework to integrate BI and KM in banking industry.
+</abs>
+		</text>
+		<text id="arXiv:1807.04962">
+			<title>Knowledge Management Strategies and Processes in Agile Software
+  Development: A Systematic Literature Review</title>
+			<hlight>&lt;b class="match term0"&gt;Knowledge&lt;/b&gt;-intensive companies that adopt Agile...implementation of &lt;b class="match term0"&gt;Knowledge&lt;/b&gt; Management (&lt;b class="match term1"&gt;KM&lt;/b&gt;) strategies to
+promotes...interaction to &lt;b class="match term4"&gt;share&lt;/b&gt; tacit
+&lt;b class="match term3"&gt;knowledge&lt;/b&gt; in the project</hlight>
+			<abs>  Knowledge-intensive companies that adopt Agile Software Development (ASD)
+relay on efficient implementation of Knowledge Management (KM) strategies to
+promotes different Knowledge Processes (KPs) to gain competitive advantage.
+This study aims to explore how companies that adopt ASD implement KM strategies
+utilizing practices that promote the KPs in the different organizational
+layers. Through a systematic literature review, we analyzed 32 primary studies,
+selected by automated search and snowballing in the extant literature. To
+analyze the data, we applied narrative synthesis. Most of the identified KM
+practices implement personalization strategies (81 %), supported by
+codification (19 %). Our review shows that the primary studies do not report KM
+practices in the strategic layer and two of them in the product portfolio
+layer; on the other hand, in the project layer, the studies report 33 practices
+that implement personalization strategy, and seven practices that implement
+codification. KM strategies in ASD promote mainly the knowledge transfer
+process with practices that stimulate social interaction to share tacit
+knowledge in the project layer. As a result of using informal communication, a
+significant amount of knowledge can be lost or not properly transferred to
+other individuals and, instead of propagating the knowledge, it remains inside
+a few individuals minds.
+</abs>
+		</text>
+		<text id="arXiv:1506.03828">
+			<title>Strategies for fostering Knowledge Management Programs in Public
+  Organizations</title>
+			<hlight>&lt;b class="match term0"&gt;Knowledge&lt;/b&gt; Management (&lt;b class="match term1"&gt;KM&lt;/b&gt;) is an approach to achieving...implementation of &lt;b class="match term1"&gt;KM&lt;/b&gt; programs, and the evaluation...implement &lt;b class="match term1"&gt;KM&lt;/b&gt; programs in Mexico</hlight>
+			<abs>  Knowledge Management (KM) is an approach to achieving strategic objectives by
+visualizing, sharing, and using intangible resources of an organization and its
+stakeholders. There are many studies that analyze specific factors for the
+successful implementation of KM programs, and the evaluation of such factors is
+considered a strategic tool for Public Organizations (POs) for efficiently
+directing the implementation of a KM program. Nevertheless, there are cultural
+problems such as weak trust, bad collaboration; technological problems as KM
+systems difficult to use, nor interconnected or interoperable; and strategic
+problems as political changes, not inter-administration continuity or lack of
+political willingness. In this research we provide an overview of the key
+factors for facilitating the implementation of KM programs. To this end, we
+conducted a Systematic Literature Review (SLR) of success factors to create a
+KM program for POs. Analyzing the twenty related studies we summarize benefits
+and quality attributes of KM. Moreover, we obtained from an ongoing project
+evaluation results of the KM factors ranked cultural, technological and
+strategic. The results show that the Mexican POs have strategic and
+technological issues such as: a misalignment between knowledge management and
+organizational goals, it seems that POs are barely reusing their knowledge to
+execute their daily activities or to take decisions, and is not possible to
+know who and how a knowledge asset has been used. Finally, according to the
+gaps and difficulties of the SLR, we provide strategies to successfully
+implement KM programs in Mexico.
+</abs>
+		</text>
+		<text id="arXiv:1112.3726">
+			<title>KM and WEB 2.0 methods for project-based learning. MESHAT : a monitoring
+  and experience sharing tool</title>
+			<hlight>platform is based on &lt;b class="match term0"&gt;Knowledge&lt;/b&gt;
+Management (&lt;b class="match term1"&gt;KM&lt;/b&gt;) and Web 2.0 concepts to...dynamic building of
+&lt;b class="match term3"&gt;knowledge&lt;/b&gt;. &lt;b class="match term1"&gt;KM&lt;/b&gt; is used to define the learning...way the individual &lt;b class="match term3"&gt;knowledge&lt;/b&gt; building is monitored</hlight>
+			<abs>  Our work aims at studying tools offered to learners and tutors involved in
+face-to-face or blended project-based learning activities. To understand better
+the needs and expectations of each actor, we are especially interested in the
+specific case of project management training. The results of a course
+observation show that the lack of monitoring and expertise transfer tools
+involves important dysfunctions in the course organisation and therefore
+dissatisfaction for tutors and students (in particular about the acquisition of
+knowledge and expertise). So as to solve this problem, we propose a
+personalised platform (according to the actor: project group, student or
+tutor), which gives information to monitor activities and supports the
+acquisition and transfer of expertise. This platform is based on Knowledge
+Management (KM) and Web 2.0 concepts to support the dynamic building of
+knowledge. KM is used to define the learning process (based on the experiential
+learning theory) and the way the individual knowledge building is monitored
+(based on metacognitive concepts). Web 2.0 is used to define the way the
+experience is shared. We make the hypothesis that this approach improves the
+acquisition of complex skills (e.g. management, communication and
+collaboration), which requires a behavioural evolution. We aim at making the
+students become able 'to learn to learn' and evolve according to contexts. We
+facilitate their ability to have a critical analysis of their actions according
+to the situations they encounter.
+</abs>
+		</text>
+		<text id="arXiv:astro-ph/0703397">
+			<title>Are Complex A and the Orphan Stream related?</title>
+			<hlight>uses our current
+&lt;b class="match term3"&gt;knowledge&lt;/b&gt; of the projected...the two
+streams &lt;b class="match term4"&gt;share&lt;/b&gt; the same orbit. If Complex...approximately -110 &lt;b class="match term0"&gt;km&lt;/b&gt;/s.
+Complex A would be ahead</hlight>
+			<abs>  We consider the possibility that the Galactic neutral hydrogen stream Complex
+A and the stellar Orphan stream are related, and use this hypothesis to
+determine possible distances to Complex A and the Orphan stream, and
+line-of-sight velocities for the latter. The method presented uses our current
+knowledge of the projected positions of the streams, as well as line-of-sight
+velocities for Complex A, and we show that a solution exists in which the two
+streams share the same orbit. If Complex A and the Orphan stream are on this
+orbit, our calculations suggest the Orphan stream to be at an average distance
+of 20 kpc, with heliocentric radial velocities of approximately -110 km/s.
+Complex A would be ahead of the Orphan stream in the same wrap of the orbit,
+with an average distance of 10 kpc, which is consistent with the distance
+constraints determined through interstellar absorption line techniques.
+</abs>
+		</text>
+		<text id="arXiv:1909.06897">
+			<title>Brno Urban Dataset -- The New Data for Self-Driving Agents and Mapping
+  Tasks</title>
+			<hlight>which, to the best &lt;b class="match term3"&gt;knowledge&lt;/b&gt; of the authors...of more than
+350 &lt;b class="match term0"&gt;km&lt;/b&gt; of rides in varying environment...are &lt;b class="match term1"&gt;shared&lt;/b&gt; at: https:
+//github.com</hlight>
+			<abs>  Autonomous driving is a dynamically growing field of research, where quality
+and amount of experimental data is critical. Although several rich datasets are
+available these days, the demands of researchers and technical possibilities
+are evolving. Through this paper, we bring a new dataset recorded in Brno,
+Czech Republic. It offers data from four WUXGA cameras, two 3D LiDARs, inertial
+measurement unit, infrared camera and especially differential RTK GNSS receiver
+with centimetre accuracy which, to the best knowledge of the authors, is not
+available from any other public dataset so far. In addition, all the data are
+precisely timestamped with sub-millisecond precision to allow wider range of
+applications. At the time of publishing of this paper, recordings of more than
+350 km of rides in varying environment are shared at: https:
+//github.com/RoboticsBUT/Brno-Urban-Dataset.
+</abs>
+		</text>
+		<text id="arXiv:2004.07473">
+			<title>Destination Prediction Based on Partial Trajectory Data</title>
+			<hlight>many applications, &lt;b class="match term3"&gt;knowledge&lt;/b&gt;
+about a user's...can be made or
+ride-&lt;b class="match term2"&gt;sharing&lt;/b&gt; opportunities...a mean error of
+1.3 &lt;b class="match term0"&gt;km&lt;/b&gt; and 1.43 &lt;b class="match term0"&gt;km&lt;/b&gt; respectively</hlight>
+			<abs>  Two-thirds of the people who buy a new car prefer to use a substitute instead
+of the built-in navigation system. However, for many applications, knowledge
+about a user's intended destination and route is crucial. For example,
+suggestions for available parking spots close to the destination can be made or
+ride-sharing opportunities along the route are facilitated. Our approach
+predicts probable destinations and routes of a vehicle, based on the most
+recent partial trajectory and additional contextual data. The approach follows
+a three-step procedure: First, a $k$-d tree-based space discretization is
+performed, mapping GPS locations to discrete regions. Secondly, a recurrent
+neural network is trained to predict the destination based on partial sequences
+of trajectories. The neural network produces destination scores, signifying the
+probability of each region being the destination. Finally, the routes to the
+most probable destinations are calculated. To evaluate the method, we compare
+multiple neural architectures and present the experimental results of the
+destination prediction. The experiments are based on two public datasets of
+non-personalized, timestamped GPS locations of taxi trips. The best performing
+models were able to predict the destination of a vehicle with a mean error of
+1.3 km and 1.43 km respectively.
+</abs>
+		</text>
+		<text id="arXiv:2001.10089">
+			<title>Agile and versatile quantum communication: signatures and secrets</title>
+			<hlight>requiring any &lt;b class="match term3"&gt;knowledge&lt;/b&gt; of its inner
+workings...and quantum secret
+&lt;b class="match term2"&gt;sharing&lt;/b&gt; (QSS), on the same hardware...0.2$~s over a
+$20$~&lt;b class="match term0"&gt;km&lt;/b&gt; fiber link. To our &lt;b class="match term3"&gt;knowledge&lt;/b&gt;, this also marks</hlight>
+			<abs>  Agile cryptography allows for a resource-efficient swap of a cryptographic
+core in case the security of an underlying classical cryptographic algorithm
+becomes compromised. Conversely, versatile cryptography allows the user to
+switch the cryptographic task without requiring any knowledge of its inner
+workings. In this paper, we suggest how these related principles can be applied
+to the field of quantum cryptography by explicitly demonstrating two quantum
+cryptographic protocols, quantum digital signatures (QDS) and quantum secret
+sharing (QSS), on the same hardware sender and receiver platform. Crucially,
+the protocols differ only in their classical post-processing. The system is
+also suitable for quantum key distribution (QKD) and is highly compatible with
+deployed telecommunication infrastructures, since it uses standard quadrature
+phase shift keying (QPSK) encoding and heterodyne detection. For the first
+time, QDS protocols are modified to allow for postselection at the receiver,
+enhancing protocol performance. The cryptographic primitives QDS and QSS are
+inherently multipartite and we prove that they are secure not only when a
+player internal to the task is dishonest, but also when (external)
+eavesdropping on the quantum channel is allowed. In our first
+proof-of-principle demonstration of an agile and versatile quantum
+communication system, the quantum states were distributed at GHz rates. This
+allows for a one-bit message to be securely signed using our QDS protocols in
+less than $0.05$~ms over a $2$~km fiber link and in less than $0.2$~s over a
+$20$~km fiber link. To our knowledge, this also marks the first demonstration
+of a continuous-variable direct QSS protocol.
+</abs>
+		</text>
+	</triple>
