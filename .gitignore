@@ -10,6 +10,7 @@ res*.xml
 merged
 *.npy
 processed*.csv
+grep.txt
 
 # Mac files
 .DS_Store
