@@ -3,13 +3,10 @@ import pandas as pd
 from sentence_transformers import SentenceTransformer
 import os
 
-file = '/users/daychman/Internship_SBERT/files/merged'
+file = '/tempo/merged_clean.csv'
 
 #convert df into a numpy array
 df = pd.read_csv(file)
-
-# drop the columns word A and word B
-df = df.drop(['Word B', 'Word A'], axis=1)
 
 # convert the relationships into categories
 rel_cat = df['Relation'].astype('category')
@@ -28,6 +25,4 @@ arr = model.encode(df['Sentence'])
 dir = os.path.dirname(os.path.realpath(file))
 os.chdir(dir)
 
-np.save("embeddings.npy", arr)
-np.save("labels.npy", labels)
-np.save("conversion.npy", conversion_dict)
+# change directory to /tempo/processed-files

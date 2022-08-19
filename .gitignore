@@ -10,6 +10,7 @@ res*.xml
 merged
 *.npy
 processed*.csv
+merged_clean.csv
 grep.txt
 
 # Mac files
@@ -20,6 +21,8 @@ grep.txt
 
 # Distribution / packaging
 .Python
+Miniconda3-latest-Linux-x86_64.sh
+*.csv
 build/
 develop-eggs/
 dist/
@@ -130,3 +133,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# ignore all .xml files in /test
+test/*.xml
