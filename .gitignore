@@ -10,6 +10,7 @@ res*.xml
 merged
 *.npy
 processed*.csv
+processed-files/ds_enc/*
 merged_clean.csv
 grep.txt
 
