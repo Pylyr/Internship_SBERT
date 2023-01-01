@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 downloader.sh - bash script to download the files
 google_drive_download - similar script to download files from google drive
 serial/parallel_processor.py - used to extract the best block containing both words from the abstract
@@ -11,6 +10,3 @@ fine_tunning:
 2 - huggingface hinge loss
 3 - huggingface triplet loss
 pca.ipynb - final file for testing, plotting and evaluating the results
-=======
-
->>>>>>> 86aa602884d8e9e2b0c5ebef11a0c936891a32a8
